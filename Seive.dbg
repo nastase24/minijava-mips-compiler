@@ -1,0 +1,3019 @@
+ .data # Program at 5.1
+# ****** class Object ****** # ClassDecl at 0.0
+  .byte 0 # ClassDecl at 0.0
+  .byte 0 # ClassDecl at 0.0
+  .byte 207 # 'O' with high bit set # ClassDecl at 0.0
+  .byte 98 # 'b' # ClassDecl at 0.0
+  .byte 106 # 'j' # ClassDecl at 0.0
+  .byte 101 # 'e' # ClassDecl at 0.0
+  .byte 99 # 'c' # ClassDecl at 0.0
+  .byte 116 # 't' # ClassDecl at 0.0
+5460:CLASS_Object: # ClassDecl at 0.0
+  .word fcn_hashCode_Object # MethodDeclNonVoid at 0.0
+  .word fcn_equals_Object # MethodDeclNonVoid at 0.0
+  .word fcn_toString_Object # MethodDeclNonVoid at 0.0
+# ****** class String ****** # ClassDecl at 0.0
+  .byte 0 # ClassDecl at 0.0
+  .byte 0 # ClassDecl at 0.0
+  .byte 211 # 'S' with high bit set # ClassDecl at 0.0
+  .byte 116 # 't' # ClassDecl at 0.0
+  .byte 114 # 'r' # ClassDecl at 0.0
+  .byte 105 # 'i' # ClassDecl at 0.0
+  .byte 110 # 'n' # ClassDecl at 0.0
+  .byte 103 # 'g' # ClassDecl at 0.0
+5480:CLASS_String: # ClassDecl at 0.0
+  .word fcn_hashCode_String # MethodDeclNonVoid at 0.0
+  .word fcn_equals_String # MethodDeclNonVoid at 0.0
+  .word fcn_toString_String # MethodDeclNonVoid at 0.0
+  .word fcn_concat_String # MethodDeclNonVoid at 0.0
+  .word fcn_substring_String # MethodDeclNonVoid at 0.0
+  .word fcn_length_String # MethodDeclNonVoid at 0.0
+  .word fcn_charAt_String # MethodDeclNonVoid at 0.0
+  .word fcn_compareTo_String # MethodDeclNonVoid at 0.0
+5512:END_CLASS_String: # ClassDecl at 0.0
+# ****** class Lib ****** # ClassDecl at 0.0
+  .byte 0 # ClassDecl at 0.0
+  .byte 204 # 'L' with high bit set # ClassDecl at 0.0
+  .byte 105 # 'i' # ClassDecl at 0.0
+  .byte 98 # 'b' # ClassDecl at 0.0
+5516:CLASS_Lib: # ClassDecl at 0.0
+  .word fcn_hashCode_Object # MethodDeclNonVoid at 0.0
+  .word fcn_equals_Object # MethodDeclNonVoid at 0.0
+  .word fcn_toString_Object # MethodDeclNonVoid at 0.0
+  .word fcn_readLine_Lib # MethodDeclNonVoid at 0.0
+  .word fcn_readInt_Lib # MethodDeclNonVoid at 0.0
+  .word fcn_readChar_Lib # MethodDeclNonVoid at 0.0
+  .word fcn_printStr_Lib # MethodDeclVoid at 0.0
+  .word fcn_printBool_Lib # MethodDeclVoid at 0.0
+  .word fcn_printInt_Lib # MethodDeclVoid at 0.0
+  .word fcn_intToString_Lib # MethodDeclNonVoid at 0.0
+  .word fcn_intToChar_Lib # MethodDeclNonVoid at 0.0
+# ****** class Seive ****** # ClassDecl at 12.7
+  .byte 0 # ClassDecl at 12.7
+  .byte 0 # ClassDecl at 12.7
+  .byte 0 # ClassDecl at 12.7
+  .byte 211 # 'S' with high bit set # ClassDecl at 12.7
+  .byte 101 # 'e' # ClassDecl at 12.7
+  .byte 105 # 'i' # ClassDecl at 12.7
+  .byte 118 # 'v' # ClassDecl at 12.7
+  .byte 101 # 'e' # ClassDecl at 12.7
+5568:CLASS_Seive: # ClassDecl at 12.7
+  .word fcn_hashCode_Object # MethodDeclNonVoid at 0.0
+  .word fcn_equals_Object # MethodDeclNonVoid at 0.0
+  .word fcn_toString_Object # MethodDeclNonVoid at 0.0
+  .word fcn_readLine_Lib # MethodDeclNonVoid at 0.0
+  .word fcn_readInt_Lib # MethodDeclNonVoid at 0.0
+  .word fcn_readChar_Lib # MethodDeclNonVoid at 0.0
+  .word fcn_printStr_Lib # MethodDeclVoid at 0.0
+  .word fcn_printBool_Lib # MethodDeclVoid at 0.0
+  .word fcn_printInt_Lib # MethodDeclVoid at 0.0
+  .word fcn_intToString_Lib # MethodDeclNonVoid at 0.0
+  .word fcn_intToChar_Lib # MethodDeclNonVoid at 0.0
+  .word fcn_exec_Seive # MethodDeclVoid at 15.17
+5616:END_CLASS_Seive: # ClassDecl at 12.7
+5616:END_CLASS_Lib: # ClassDecl at 0.0
+# ****** class RunMain ****** # ClassDecl at 0.0
+  .byte 0 # ClassDecl at 0.0
+  .byte 210 # 'R' with high bit set # ClassDecl at 0.0
+  .byte 117 # 'u' # ClassDecl at 0.0
+  .byte 110 # 'n' # ClassDecl at 0.0
+  .byte 77 # 'M' # ClassDecl at 0.0
+  .byte 97 # 'a' # ClassDecl at 0.0
+  .byte 105 # 'i' # ClassDecl at 0.0
+  .byte 110 # 'n' # ClassDecl at 0.0
+5624:CLASS_RunMain: # ClassDecl at 0.0
+  .word fcn_hashCode_Object # MethodDeclNonVoid at 0.0
+  .word fcn_equals_Object # MethodDeclNonVoid at 0.0
+  .word fcn_toString_Object # MethodDeclNonVoid at 0.0
+5636:END_CLASS_RunMain: # ClassDecl at 0.0
+# ****** class Main ****** # ClassDecl at 5.7
+  .byte 205 # 'M' with high bit set # ClassDecl at 5.7
+  .byte 97 # 'a' # ClassDecl at 5.7
+  .byte 105 # 'i' # ClassDecl at 5.7
+  .byte 110 # 'n' # ClassDecl at 5.7
+5640:CLASS_Main: # ClassDecl at 5.7
+  .word fcn_hashCode_Object # MethodDeclNonVoid at 0.0
+  .word fcn_equals_Object # MethodDeclNonVoid at 0.0
+  .word fcn_toString_Object # MethodDeclNonVoid at 0.0
+  .word fcn_main_Main # MethodDeclVoid at 6.17
+5656:END_CLASS_Main: # ClassDecl at 5.7
+5656:dataArrayVTableStart: # IntegerType at 0.0
+  .byte 0 # ArrayType at 32.20
+  .byte 0 # ArrayType at 32.20
+  .byte 219 # '[' with high bit set # ArrayType at 32.20
+  .byte 90 # 'Z' # ArrayType at 32.20
+5660:CLASS_ARRAY_BOOLEAN: # ArrayType at 32.20
+  .word fcn_hashCode_Object # ArrayType at 32.20
+  .word fcn_toString_Object # ArrayType at 32.20
+  .word fcn_equals_Object # ArrayType at 32.20
+5672:END_CLASS_ARRAY_BOOLEAN: # ArrayType at 32.20
+5672:END_CLASS_Object: # ClassDecl at 0.0
+  .byte 70 # StringLiteral at 18.11
+  .byte 105 # StringLiteral at 18.11
+  .byte 110 # StringLiteral at 18.11
+  .byte 100 # StringLiteral at 18.11
+  .byte 32 # StringLiteral at 18.11
+  .byte 112 # StringLiteral at 18.11
+  .byte 114 # StringLiteral at 18.11
+  .byte 105 # StringLiteral at 18.11
+  .byte 109 # StringLiteral at 18.11
+  .byte 101 # StringLiteral at 18.11
+  .byte 115 # StringLiteral at 18.11
+  .byte 32 # StringLiteral at 18.11
+  .byte 116 # StringLiteral at 18.11
+  .byte 104 # StringLiteral at 18.11
+  .byte 114 # StringLiteral at 18.11
+  .byte 111 # StringLiteral at 18.11
+  .byte 117 # StringLiteral at 18.11
+  .byte 103 # StringLiteral at 18.11
+  .byte 104 # StringLiteral at 18.11
+  .byte 58 # StringLiteral at 18.11
+  .byte 32 # StringLiteral at 18.11
+  .byte 0 # StringLiteral at 18.11
+  .byte 0 # StringLiteral at 18.11
+  .byte 0 # StringLiteral at 18.11
+  .word CLASS_String # StringLiteral at 18.11
+  .word 7 # StringLiteral at 18.11
+  .word -21 # StringLiteral at 18.11
+5708:strLit_6: # StringLiteral at 18.11
+  .byte 112 # StringLiteral at 48.11
+  .byte 114 # StringLiteral at 48.11
+  .byte 105 # StringLiteral at 48.11
+  .byte 109 # StringLiteral at 48.11
+  .byte 101 # StringLiteral at 48.11
+  .byte 115 # StringLiteral at 48.11
+  .byte 32 # StringLiteral at 48.11
+  .byte 117 # StringLiteral at 48.11
+  .byte 112 # StringLiteral at 48.11
+  .byte 32 # StringLiteral at 48.11
+  .byte 116 # StringLiteral at 48.11
+  .byte 104 # StringLiteral at 48.11
+  .byte 114 # StringLiteral at 48.11
+  .byte 111 # StringLiteral at 48.11
+  .byte 117 # StringLiteral at 48.11
+  .byte 103 # StringLiteral at 48.11
+  .byte 104 # StringLiteral at 48.11
+  .byte 32 # StringLiteral at 48.11
+  .byte 0 # StringLiteral at 48.11
+  .byte 0 # StringLiteral at 48.11
+  .word CLASS_String # StringLiteral at 48.11
+  .word 6 # StringLiteral at 48.11
+  .word -18 # StringLiteral at 48.11
+5740:strLit_84: # StringLiteral at 48.11
+  .byte 58 # StringLiteral at 50.11
+  .byte 10 # StringLiteral at 50.11
+  .byte 0 # StringLiteral at 50.11
+  .byte 0 # StringLiteral at 50.11
+  .word CLASS_String # StringLiteral at 50.11
+  .word 2 # StringLiteral at 50.11
+  .word -2 # StringLiteral at 50.11
+5756:strLit_92: # StringLiteral at 50.11
+  .byte 10 # StringLiteral at 61.16
+  .byte 0 # StringLiteral at 61.16
+  .byte 0 # StringLiteral at 61.16
+  .byte 0 # StringLiteral at 61.16
+  .word CLASS_String # StringLiteral at 61.16
+  .word 2 # StringLiteral at 61.16
+  .word -1 # StringLiteral at 61.16
+5772:strLit_129: # StringLiteral at 61.16
+  .byte 32 # StringLiteral at 66.16
+  .byte 0 # StringLiteral at 66.16
+  .byte 0 # StringLiteral at 66.16
+  .byte 0 # StringLiteral at 66.16
+  .word CLASS_String # StringLiteral at 66.16
+  .word 2 # StringLiteral at 66.16
+  .word -1 # StringLiteral at 66.16
+5788:strLit_137: # StringLiteral at 66.16
+  .byte 10 # StringLiteral at 72.11
+  .byte 0 # StringLiteral at 72.11
+  .byte 0 # StringLiteral at 72.11
+  .byte 0 # StringLiteral at 72.11
+  .word CLASS_String # StringLiteral at 72.11
+  .word 2 # StringLiteral at 72.11
+  .word -1 # StringLiteral at 72.11
+5804:strLit_150: # StringLiteral at 72.11
+.text
+.globl main
+0:main:
+0#  jal vm_init
+4#li $s6,2
+8#li $s7,0
+12#jal newObject
+16#la $t0,CLASS_Main
+20#sw $t0,-12($s7)
+24#lw $s2,($sp)
+28#addu $sp,$sp,4
+32#jal fcn_main_Main
+36#li $v0,10
+40#syscall
+44:fcn_main_Main:
+44#  subu $sp,$sp,4
+48#  sw $ra,($sp)
+52#  li $s6,1
+56#  li $s7,0
+60#  jal newObject
+64#  la $t0,CLASS_Seive
+68#  sw $t0,-12($s7)
+72#  lw $t0,0($sp)
+76#  sw $s2,0($sp)
+80#  move $s2, $t0
+84#  lw $t0, -12($s2)
+88#  lw $t0,44($t0)
+92#  jalr $t0
+96#  addu $sp,$sp,0
+100#  lw $s2,($sp)
+104#  addu $sp,$sp,4
+108#  subu $sp,$sp,4
+112#  sw $t0,($sp)
+116#  addu $sp,$sp,4
+120#  addu $sp,$sp,0
+124#  addu $sp,$sp,0
+128#  lw $ra,($sp)
+132#  addu $sp,$sp,4
+136#  jr $ra
+140:fcn_exec_Seive:
+140#  subu $sp,$sp,4
+144#  sw $ra,($sp)
+148#  subu $sp,$sp,4
+152#  sw $s2,($sp)
+156#  la $t0, strLit_6
+160#  subu $sp,$sp,4
+164#  sw $t0,($sp)
+168#  lw $t0,4($sp)
+172#  sw $s2,4($sp)
+176#  move $s2, $t0
+180#  lw $t0, -12($s2)
+184#  lw $t0,24($t0)
+188#  jalr $t0
+192#  addu $sp,$sp,4
+196#  lw $s2,($sp)
+200#  addu $sp,$sp,4
+204#  subu $sp,$sp,4
+208#  sw $t0,($sp)
+212#  addu $sp,$sp,4
+216#  subu $sp,$sp,4
+220#  sw $s2,($sp)
+224#  lw $t0,0($sp)
+228#  sw $s2,0($sp)
+232#  move $s2, $t0
+236#  lw $t0, -12($s2)
+240#  lw $t0,16($t0)
+244#  jalr $t0
+248#  addu $sp,$sp,0
+252#  lw $s2,($sp)
+256#  addu $sp,$sp,4
+260#  subu $sp,$sp,8
+264#  sw $s5,4($sp)
+268#  sw $t0,($sp)
+272#  lw $0,($sp)
+276#  lw $t0,0($sp)
+280#  subu $sp,$sp,8
+284#  sw $s5,4($sp)
+288#  sw $t0,($sp)
+292#  lw $0,($sp)
+296#  lw $t0,0($sp)
+300#  subu $sp,$sp,8
+304#  sw $s5,4($sp)
+308#  sw $t0,($sp)
+312#  li $t0,0
+316#  subu $sp,$sp,8
+320#  sw $s5,4($sp)
+324#  sw $t0,($sp)
+328#  lw $t2,($sp)
+332#  addu $sp,$sp,8
+336#  lw $t1,($sp)
+340#  addu $sp,$sp,8
+344#slt $t0,$t1,$t2
+348#  subu $sp,$sp,4
+352#  sw $t0,($sp)
+356#  lw $t0,($sp)
+360#  addu $sp,$sp,4
+364#  beq $t0,$0,if_else_27
+368#  lw $t0,0($sp)
+372#  subu $sp,$sp,8
+376#  sw $s5,4($sp)
+380#  sw $t0,($sp)
+384#  li $t0,0
+388#  subu $sp,$sp,8
+392#  sw $s5,4($sp)
+396#  sw $t0,($sp)
+400#  lw $t0,($sp)
+404#  addu $sp,$sp,8
+# IdentifierExp Assignment: Assign at 24.8; stackHeight = 28
+408#  sw $t0,8($sp)
+412#  addu $sp,$sp,8
+416#j if_done_27
+420:if_else_27:
+420#  addu $sp,$sp,0
+424:if_done_27:
+424#  lw $t0,0($sp)
+428#  subu $sp,$sp,8
+432#  sw $s5,4($sp)
+436#  sw $t0,($sp)
+440#  li $t0,1
+444#  subu $sp,$sp,8
+448#  sw $s5,4($sp)
+452#  sw $t0,($sp)
+456#  lw $t2,($sp)
+460#  addu $sp,$sp,8
+464#  lw $t1,($sp)
+468#  addu $sp,$sp,8
+472#  addu $t0,$t1,$t2
+476#  subu $sp,$sp,8
+480#  sw $s5,4($sp)
+484#  sw $t0,($sp)
+488#li $s6,1
+492#  lw $s7,($sp)
+496#  addu $sp,$sp,8
+500#jal newObject
+504#la $t0, CLASS_ARRAY_BOOLEAN
+508#sw $t0, -12($s7)
+512#  lw $0,($sp)
+516#  li $t0,2
+520#  subu $sp,$sp,8
+524#  sw $s5,4($sp)
+528#  sw $t0,($sp)
+532#  lw $0,($sp)
+536:while_cond_82:
+536#  lw $t0,0($sp)
+540#  subu $sp,$sp,8
+544#  sw $s5,4($sp)
+548#  sw $t0,($sp)
+552#  lw $t0,20($sp)
+556#  subu $sp,$sp,8
+560#  sw $s5,4($sp)
+564#  sw $t0,($sp)
+568#  lw $t2,($sp)
+572#  addu $sp,$sp,8
+576#  lw $t1,($sp)
+580#  addu $sp,$sp,8
+584#  sgt $t0,$t1,$t2
+588#  subu $sp,$sp,4
+592#  sw $t0,($sp)
+596#lw $t0,($sp)
+600#xor $t0,$t0,1
+604#sw $t0,($sp)
+608#  lw $t0,($sp)
+612#  addu $sp,$sp,4
+616#  beq $t0, $0,break_target_82
+620#  lw $t0,8($sp)
+624#  subu $sp,$sp,4
+628#  sw $t0,($sp)
+632#  lw $t0,4($sp)
+636#  subu $sp,$sp,8
+640#  sw $s5,4($sp)
+644#  sw $t0,($sp)
+648#  lw $t0,($sp)
+652#  addu $sp,$sp,4
+656#  lw $t1,($sp)
+660#  addu $sp,$sp,4
+664#  beq $t0,$0,nullPtrException
+668#lw $t3, -4($t0)
+672#bgeu $t1,$t3,arrayIndexOutOfBounds
+673##...sltu $at,$t1,$t3
+677##...beq $at,$zero,5412
+680#sll $t1,$t1,2
+684#addu $t1,$t1,$t0
+688#lw $t0,($t1)
+692#  subu $sp,$sp,4
+696#  sw $t0,($sp)
+700#lw $t0,($sp)
+704#xor $t0,$t0,1
+708#sw $t0,($sp)
+712#  lw $t0,($sp)
+716#  addu $sp,$sp,4
+720#  beq $t0,$0,if_else_79
+724#  li $t0,2
+728#  subu $sp,$sp,8
+732#  sw $s5,4($sp)
+736#  sw $t0,($sp)
+740#  lw $t0,12($sp)
+744#  subu $sp,$sp,8
+748#  sw $s5,4($sp)
+752#  sw $t0,($sp)
+756#  lw $t2,($sp)
+760#  addu $sp,$sp,8
+764#  lw $t1,($sp)
+768#  addu $sp,$sp,8
+772#  mul $t0,$t1,$t2
+773##...mult $t1,$t2
+777##...mflo $t0
+780#  subu $sp,$sp,8
+784#  sw $s5,4($sp)
+788#  sw $t0,($sp)
+792#  lw $0,($sp)
+796:while_cond_75:
+796#  lw $t0,0($sp)
+800#  subu $sp,$sp,8
+804#  sw $s5,4($sp)
+808#  sw $t0,($sp)
+812#  lw $t0,32($sp)
+816#  subu $sp,$sp,8
+820#  sw $s5,4($sp)
+824#  sw $t0,($sp)
+828#  lw $t2,($sp)
+832#  addu $sp,$sp,8
+836#  lw $t1,($sp)
+840#  addu $sp,$sp,8
+844#slt $t0,$t1,$t2
+848#  subu $sp,$sp,4
+852#  sw $t0,($sp)
+856#  lw $t0,($sp)
+860#  addu $sp,$sp,4
+864#  beq $t0, $0,break_target_75
+868#  lw $t0,20($sp)
+872#  subu $sp,$sp,4
+876#  sw $t0,($sp)
+880#  lw $t0,4($sp)
+884#  subu $sp,$sp,8
+888#  sw $s5,4($sp)
+892#  sw $t0,($sp)
+896#  lw $t0,($sp)
+900#  addu $sp,$sp,4
+904#  lw $t1,($sp)
+908#  addu $sp,$sp,4
+912#  beq $t0,$0,nullPtrException
+916#lw $t3, -4($t0)
+920#bgeu $t1,$t3,arrayIndexOutOfBounds
+921##...sltu $at,$t1,$t3
+925##...beq $at,$zero,5412
+928#sll $t1,$t1,2
+932#addu $t1,$t1,$t0
+936#lw $t0,($t1)
+940#  subu $sp,$sp,4
+944#  sw $t0,($sp)
+948#  li $t0,1
+952#  subu $sp,$sp,4
+956#  sw $t0,($sp)
+# ArrayLookup Assignment: Assign at 38.16; stackHeight = 56
+960#  lw $t0,($sp)
+964#  addu $sp,$sp,4
+968#  lw $t1,($sp)
+972#  addu $sp,$sp,8
+976#  lw $t2,($sp)
+980#  addu $sp,$sp,4
+984#  beq $t2,$0,nullPtrException
+988#lw $t3, -4($t2)
+992#bgeu $t1,$t3,arrayIndexOutOfBounds
+993##...sltu $at,$t1,$t3
+997##...beq $at,$zero,5412
+1000#sll $t1,$t1,2
+1004#addu $t1,$t1,$t2
+1008#  sw $t0, ($t1)
+1012#  addu $sp,$sp,-4
+1016#  lw $t0,0($sp)
+1020#  subu $sp,$sp,8
+1024#  sw $s5,4($sp)
+1028#  sw $t0,($sp)
+1032#  lw $t0,8($sp)
+1036#  subu $sp,$sp,8
+1040#  sw $s5,4($sp)
+1044#  sw $t0,($sp)
+1048#  lw $t0,28($sp)
+1052#  subu $sp,$sp,8
+1056#  sw $s5,4($sp)
+1060#  sw $t0,($sp)
+1064#  lw $t2,($sp)
+1068#  addu $sp,$sp,8
+1072#  lw $t1,($sp)
+1076#  addu $sp,$sp,8
+1080#  addu $t0,$t1,$t2
+1084#  subu $sp,$sp,8
+1088#  sw $s5,4($sp)
+1092#  sw $t0,($sp)
+1096#  lw $t0,($sp)
+1100#  addu $sp,$sp,8
+# IdentifierExp Assignment: Assign at 37.30; stackHeight = 52
+1104#  sw $t0,8($sp)
+1108#  addu $sp,$sp,8
+1112#  j while_cond_75
+1116:break_target_75:
+1116#  addu $sp,$sp,8
+1120#  addu $sp,$sp,0
+1124#j if_done_79
+1128:if_else_79:
+1128#  addu $sp,$sp,0
+1132:if_done_79:
+1132#  addu $sp,$sp,4
+1136#  lw $t0,0($sp)
+1140#  subu $sp,$sp,8
+1144#  sw $s5,4($sp)
+1148#  sw $t0,($sp)
+1152#  lw $t0,8($sp)
+1156#  subu $sp,$sp,8
+1160#  sw $s5,4($sp)
+1164#  sw $t0,($sp)
+1168#  li $t0,1
+1172#  subu $sp,$sp,8
+1176#  sw $s5,4($sp)
+1180#  sw $t0,($sp)
+1184#  lw $t2,($sp)
+1188#  addu $sp,$sp,8
+1192#  lw $t1,($sp)
+1196#  addu $sp,$sp,8
+1200#  addu $t0,$t1,$t2
+1204#  subu $sp,$sp,8
+1208#  sw $s5,4($sp)
+1212#  sw $t0,($sp)
+1216#  lw $t0,($sp)
+1220#  addu $sp,$sp,8
+# IdentifierExp Assignment: Assign at 35.26; stackHeight = 40
+1224#  sw $t0,8($sp)
+1228#  addu $sp,$sp,8
+1232#  j while_cond_82
+1236:break_target_82:
+1236#  addu $sp,$sp,8
+1240#  subu $sp,$sp,4
+1244#  sw $s2,($sp)
+1248#  la $t0, strLit_84
+1252#  subu $sp,$sp,4
+1256#  sw $t0,($sp)
+1260#  lw $t0,4($sp)
+1264#  sw $s2,4($sp)
+1268#  move $s2, $t0
+1272#  lw $t0, -12($s2)
+1276#  lw $t0,24($t0)
+1280#  jalr $t0
+1284#  addu $sp,$sp,4
+1288#  lw $s2,($sp)
+1292#  addu $sp,$sp,4
+1296#  subu $sp,$sp,4
+1300#  sw $t0,($sp)
+1304#  addu $sp,$sp,4
+1308#  subu $sp,$sp,4
+1312#  sw $s2,($sp)
+1316#  lw $t0,8($sp)
+1320#  subu $sp,$sp,8
+1324#  sw $s5,4($sp)
+1328#  sw $t0,($sp)
+1332#  lw $t0,8($sp)
+1336#  sw $s2,8($sp)
+1340#  move $s2, $t0
+1344#  lw $t0, -12($s2)
+1348#  lw $t0,32($t0)
+1352#  jalr $t0
+1356#  addu $sp,$sp,8
+1360#  lw $s2,($sp)
+1364#  addu $sp,$sp,4
+1368#  subu $sp,$sp,4
+1372#  sw $t0,($sp)
+1376#  addu $sp,$sp,4
+1380#  subu $sp,$sp,4
+1384#  sw $s2,($sp)
+1388#  la $t0, strLit_92
+1392#  subu $sp,$sp,4
+1396#  sw $t0,($sp)
+1400#  lw $t0,4($sp)
+1404#  sw $s2,4($sp)
+1408#  move $s2, $t0
+1412#  lw $t0, -12($s2)
+1416#  lw $t0,24($t0)
+1420#  jalr $t0
+1424#  addu $sp,$sp,4
+1428#  lw $s2,($sp)
+1432#  addu $sp,$sp,4
+1436#  subu $sp,$sp,4
+1440#  sw $t0,($sp)
+1444#  addu $sp,$sp,4
+1448#  li $t0,0
+1452#  subu $sp,$sp,8
+1456#  sw $s5,4($sp)
+1460#  sw $t0,($sp)
+1464#  lw $0,($sp)
+1468#  li $t0,2
+1472#  subu $sp,$sp,8
+1476#  sw $s5,4($sp)
+1480#  sw $t0,($sp)
+1484#  lw $0,($sp)
+1488:while_cond_148:
+1488#  lw $t0,0($sp)
+1492#  subu $sp,$sp,8
+1496#  sw $s5,4($sp)
+1500#  sw $t0,($sp)
+1504#  lw $t0,28($sp)
+1508#  subu $sp,$sp,8
+1512#  sw $s5,4($sp)
+1516#  sw $t0,($sp)
+1520#  lw $t2,($sp)
+1524#  addu $sp,$sp,8
+1528#  lw $t1,($sp)
+1532#  addu $sp,$sp,8
+1536#slt $t0,$t1,$t2
+1540#  subu $sp,$sp,4
+1544#  sw $t0,($sp)
+1548#  lw $t0,($sp)
+1552#  addu $sp,$sp,4
+1556#  beq $t0, $0,break_target_148
+1560#  lw $t0,16($sp)
+1564#  subu $sp,$sp,4
+1568#  sw $t0,($sp)
+1572#  lw $t0,4($sp)
+1576#  subu $sp,$sp,8
+1580#  sw $s5,4($sp)
+1584#  sw $t0,($sp)
+1588#  lw $t0,($sp)
+1592#  addu $sp,$sp,4
+1596#  lw $t1,($sp)
+1600#  addu $sp,$sp,4
+1604#  beq $t0,$0,nullPtrException
+1608#lw $t3, -4($t0)
+1612#bgeu $t1,$t3,arrayIndexOutOfBounds
+1613##...sltu $at,$t1,$t3
+1617##...beq $at,$zero,5412
+1620#sll $t1,$t1,2
+1624#addu $t1,$t1,$t0
+1628#lw $t0,($t1)
+1632#  subu $sp,$sp,4
+1636#  sw $t0,($sp)
+1640#lw $t0,($sp)
+1644#xor $t0,$t0,1
+1648#sw $t0,($sp)
+1652#  lw $t0,($sp)
+1656#  addu $sp,$sp,4
+1660#  beq $t0,$0,if_else_145
+1664#  subu $sp,$sp,4
+1668#  sw $s2,($sp)
+1672#  lw $t0,8($sp)
+1676#  subu $sp,$sp,8
+1680#  sw $s5,4($sp)
+1684#  sw $t0,($sp)
+1688#  lw $t0,8($sp)
+1692#  sw $s2,8($sp)
+1696#  move $s2, $t0
+1700#  lw $t0, -12($s2)
+1704#  lw $t0,32($t0)
+1708#  jalr $t0
+1712#  addu $sp,$sp,8
+1716#  lw $s2,($sp)
+1720#  addu $sp,$sp,4
+1724#  subu $sp,$sp,4
+1728#  sw $t0,($sp)
+1732#  addu $sp,$sp,4
+1736#  lw $t0,12($sp)
+1740#  subu $sp,$sp,8
+1744#  sw $s5,4($sp)
+1748#  sw $t0,($sp)
+1752#  lw $t0,20($sp)
+1756#  subu $sp,$sp,8
+1760#  sw $s5,4($sp)
+1764#  sw $t0,($sp)
+1768#  li $t0,1
+1772#  subu $sp,$sp,8
+1776#  sw $s5,4($sp)
+1780#  sw $t0,($sp)
+1784#  lw $t2,($sp)
+1788#  addu $sp,$sp,8
+1792#  lw $t1,($sp)
+1796#  addu $sp,$sp,8
+1800#  addu $t0,$t1,$t2
+1804#  subu $sp,$sp,8
+1808#  sw $s5,4($sp)
+1812#  sw $t0,($sp)
+1816#  lw $t0,($sp)
+1820#  addu $sp,$sp,8
+# IdentifierExp Assignment: Assign at 58.3; stackHeight = 52
+1824#  sw $t0,20($sp)
+1828#  lw $t0,20($sp)
+1832#  subu $sp,$sp,8
+1836#  sw $s5,4($sp)
+1840#  sw $t0,($sp)
+1844#  li $t0,20
+1848#  subu $sp,$sp,8
+1852#  sw $s5,4($sp)
+1856#  sw $t0,($sp)
+1860#  lw $t2,($sp)
+1864#  addu $sp,$sp,8
+1868#  lw $t1,($sp)
+1872#  addu $sp,$sp,8
+1876#slt $t0,$t1,$t2
+1880#  subu $sp,$sp,4
+1884#  sw $t0,($sp)
+1888#lw $t0,($sp)
+1892#xor $t0,$t0,1
+1896#sw $t0,($sp)
+1900#  lw $t0,($sp)
+1904#  addu $sp,$sp,4
+1908#  beq $t0,$0,if_else_142
+1912#  subu $sp,$sp,4
+1916#  sw $s2,($sp)
+1920#  la $t0, strLit_129
+1924#  subu $sp,$sp,4
+1928#  sw $t0,($sp)
+1932#  lw $t0,4($sp)
+1936#  sw $s2,4($sp)
+1940#  move $s2, $t0
+1944#  lw $t0, -12($s2)
+1948#  lw $t0,24($t0)
+1952#  jalr $t0
+1956#  addu $sp,$sp,4
+1960#  lw $s2,($sp)
+1964#  addu $sp,$sp,4
+1968#  subu $sp,$sp,4
+1972#  sw $t0,($sp)
+1976#  addu $sp,$sp,4
+1980#  lw $t0,20($sp)
+1984#  subu $sp,$sp,8
+1988#  sw $s5,4($sp)
+1992#  sw $t0,($sp)
+1996#  li $t0,0
+2000#  subu $sp,$sp,8
+2004#  sw $s5,4($sp)
+2008#  sw $t0,($sp)
+2012#  lw $t0,($sp)
+2016#  addu $sp,$sp,8
+# IdentifierExp Assignment: Assign at 62.22; stackHeight = 60
+2020#  sw $t0,28($sp)
+2024#  addu $sp,$sp,8
+2028#j if_done_142
+2032:if_else_142:
+2032#  subu $sp,$sp,4
+2036#  sw $s2,($sp)
+2040#  la $t0, strLit_137
+2044#  subu $sp,$sp,4
+2048#  sw $t0,($sp)
+2052#  lw $t0,4($sp)
+2056#  sw $s2,4($sp)
+2060#  move $s2, $t0
+2064#  lw $t0, -12($s2)
+2068#  lw $t0,24($t0)
+2072#  jalr $t0
+2076#  addu $sp,$sp,4
+2080#  lw $s2,($sp)
+2084#  addu $sp,$sp,4
+2088#  subu $sp,$sp,4
+2092#  sw $t0,($sp)
+2096#  addu $sp,$sp,4
+2100#  addu $sp,$sp,0
+2104:if_done_142:
+2104#  addu $sp,$sp,8
+2108#j if_done_145
+2112:if_else_145:
+2112#  addu $sp,$sp,0
+2116:if_done_145:
+2116#  addu $sp,$sp,4
+2120#  lw $t0,0($sp)
+2124#  subu $sp,$sp,8
+2128#  sw $s5,4($sp)
+2132#  sw $t0,($sp)
+2136#  lw $t0,8($sp)
+2140#  subu $sp,$sp,8
+2144#  sw $s5,4($sp)
+2148#  sw $t0,($sp)
+2152#  li $t0,1
+2156#  subu $sp,$sp,8
+2160#  sw $s5,4($sp)
+2164#  sw $t0,($sp)
+2168#  lw $t2,($sp)
+2172#  addu $sp,$sp,8
+2176#  lw $t1,($sp)
+2180#  addu $sp,$sp,8
+2184#  addu $t0,$t1,$t2
+2188#  subu $sp,$sp,8
+2192#  sw $s5,4($sp)
+2196#  sw $t0,($sp)
+2200#  lw $t0,($sp)
+2204#  addu $sp,$sp,8
+# IdentifierExp Assignment: Assign at 54.25; stackHeight = 48
+2208#  sw $t0,8($sp)
+2212#  addu $sp,$sp,8
+2216#  j while_cond_148
+2220:break_target_148:
+2220#  addu $sp,$sp,8
+2224#  subu $sp,$sp,4
+2228#  sw $s2,($sp)
+2232#  la $t0, strLit_150
+2236#  subu $sp,$sp,4
+2240#  sw $t0,($sp)
+2244#  lw $t0,4($sp)
+2248#  sw $s2,4($sp)
+2252#  move $s2, $t0
+2256#  lw $t0, -12($s2)
+2260#  lw $t0,24($t0)
+2264#  jalr $t0
+2268#  addu $sp,$sp,4
+2272#  lw $s2,($sp)
+2276#  addu $sp,$sp,4
+2280#  subu $sp,$sp,4
+2284#  sw $t0,($sp)
+2288#  addu $sp,$sp,4
+2292#  addu $sp,$sp,28
+2296#  addu $sp,$sp,0
+2300#  lw $ra,($sp)
+2304#  addu $sp,$sp,4
+2308#  jr $ra
+##############################################################
+# MiniJava/UP library for MIPS/Spim -- version that assumes
+#    one-word boolean on stack
+# author: Steven R. Vegdahl
+# date: 7-13 July 2004
+# modified 12-17 March 2007
+# modified 3-25 May 2007
+# modified 2 May 2015
+# modified 7 March 2016
+# modified 11 May - 31 June 2017
+# modified 2024 Steven Libby changed calling conventions
+#               This is now passed in s2, 
+#               and methods don't pop parameters
+# status: Seems to work on all test cases.
+###############################################################
+
+
+
+
+###############################################################
+# hashCode() - library method (class Object)
+# - returns a hash code for an object
+# - produces int that is the object's hash code
+#   meaning that they are the same physical object
+# - parameters:
+#   - $s2 - this-pointer (for Object)
+#   - ($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - 1 if the objects were the same; 0 otherwise
+###############################################################
+2312:fcn_hashCode_Object:
+    # for now, we'll return the -8 offset word, shifted/added to
+    # itself, then XORed with a fixed "random" value
+2312#    lw $t0,-8($s2) # get word with hash bits from this
+2316#    srl $t1,$t0,11 # shift/add to introduce more "randomness"
+2320#    addu $t0,$t1
+
+2324#    jr $ra # return, no change to the stack
+
+###############################################################
+# equals() - library method (class Object)
+# - tests whether two objects are equal
+# - produces boolean that tells whether two objects are equal--
+#   meaning that they are the same physical object
+# - parameters:
+#   - $s2 - this-pointer
+#   - ($sp) - object to compare to
+#   - 4($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - 1 if the objects were the same; 0 otherwise
+###############################################################
+2328:fcn_equals_Object:
+2328#    move $t0,$s2 # first pointer (this)
+2332#    lw $t1,($sp) # second pointer
+2336#    seq $t0,$t0,$t1 # produce boolean telling if they are equal
+2337##...subu $at,$t0,$t1
+2341##...sltiu $t0,$at,1
+
+2344#    jr $ra # return
+
+###############################################################
+# hashCode() - library method (class String)
+# - returns a hash code for an object
+# - produces int that is the object's hash code
+#   meaning that they are the same physical object
+# - parameters:
+#   - $s2 - this-pointer
+#   - ($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - 1 if the objects were the same; 0 otherwise
+###############################################################
+2348:fcn_hashCode_String:
+2348#    move $t0,$s2 # put this pointer in t0
+
+2352#    li $t2,0 # current hash value
+2356#    lw $t1,-4($t0) # negative of number of characters in string
+2360#    beq $t1,$zero,done_hashCode_String # if zero length => done
+2364#    addu $t0,$t1 # address of first character in string +12,
+                 # not accounting for padding and header words
+2368#    and $t0,0xfffffffc # adjust for padding
+2369##...lui $at,65535
+2373##...ori $at,$at,0xfffc
+2377##...and $t0,$t0,$at
+2380#    subu $t1,$t0,$t1 # address at end of string +12
+2384:loop_hashCode_String:    
+2384#    sll $t4,$t2,5 # multiply by 32
+2388#    subu $t2,$t4,$t2 # subtract original, so that it's now multiply by 31
+2392#    lbu $t3,-12($t0) # current character
+2396#    addu $t2,$t3 # add in current character
+2400#    addu $t0,1 # go to next character's address
+2404#    bne $t0,$t1,loop_hashCode_String # loop back if more
+2408:done_hashCode_String:    
+
+    # push int on stack
+2408#    move $t0, $t2 # put $t2 in return slot
+2412#    jr $ra # return
+
+###############################################################
+# toString() - library method (class Object)
+# - returns a String version of the object
+#   - $s2 - this-pointer
+#   - ($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - the string version of the object
+# ****NOTE: this method counts on the fact that the hashCode method
+# ****is in slot 0 of the vtable    
+###############################################################
+2416:fcn_toString_Object:
+    # we need to append:
+    # - a string created from the object name in the negative portion of
+    #   the vtable
+    # - an at-sign "@"
+    # - the hex version of the hashcode for the object, with no leading
+    #   zeros
+
+    # save return address. Get new this pointer
+2416#    subu $sp,4
+2420#    sw $ra,($sp)
+    
+    # get hash value
+2424#    lw $t2,-12($s2) # vtable address
+2428#    lw $t0,($t2) # method address
+2432#    jalr $t0
+2436#    subu $sp,8 # push result (int in $t0) on stack
+2440#    sw $s5,4($sp)
+2444#    sw $t0,($sp)
+
+    # compute print-size of hash value
+2448#    li $t0, 1
+2452#    lw $t1, ($sp)
+2456#    srl $t1,$t1,4
+2460#    beq $t1,$zero,toString_skip_loop
+2464:toString_loop_top:
+2464#    addu $t0,1
+2468#    srl $t1,$t1,4
+2472#    bne $t1,$zero,toString_loop_top
+2476:toString_skip_loop:
+2476#    subu $sp,8
+2480#    sw $s5,4($sp)
+2484#    sw $t0,($sp)
+    
+    ################################################################
+    # at this point, the stack looks like (from top):
+    # - print-size (in bytes) of the hash value
+    # - GC tag (5)
+    # - hash value
+    # - GC tag (5)
+    # - return address
+    # - old this pointer
+    # - ... rest of stack
+    ################################################################
+
+    # determine the size of the "prefix string"
+2488#    lw $t2,-12($s2) # vtable address
+2492#    move $t0,$t2
+2496:toString_checkTagBit:
+2496#    subu $t0,1
+2500#    lb $t1,($t0)
+2504#    and $t1,0x80
+2505##...lui $at,0
+2509##...ori $at,$at,0x80
+2513##...and $t1,$t1,$at
+2516#    beq $t1,$zero,toString_checkTagBit
+2520#    subu $t1,$t2,$t0 # size of the prefix string, in bytes
+2524#    subu $sp,8
+2528#    sw $t1,($sp)
+2532#    sw $s5,4($sp) # push size onto stack
+
+    # determine the header words for the string object's header
+2536#    move $s7,$zero # -4 offset header word
+2540#    lw $t4,8($sp) # bytes for hash value
+2544#    addu $t4,$t1 # bytes for prefix
+    # add 8, to account for:
+    #  - +1 for the '@' character
+    #  - +4 for the vtable word
+    #  - +3 to get the effect of rounding up rather than down
+2548#    addu $t4,8
+2552#    srl $s6,$t4,2 # divide by 4
+    
+    # allocate the object
+2556#    jal newObject
+        
+    ################################################################
+    # at this point, the stack looks like (from top):
+    # - new object, allocated to be our string
+    # - number of characters in the prefix
+    # - GC tag (5)
+    # - print-size (in bytes) of the hash value
+    # - GC tag (5)
+    # - hash value
+    # - GC tag (5)
+    # - return address
+    # - old this pointer
+    # - ... rest of stack
+    # $s7 also contains the address of the new object
+    ################################################################
+
+2560#    li $t0,CLASS_String # store string vtable address into ...
+2564#    sw $t0,-12($s7) # ... -12 offset in object header
+2568#    lw $t2,-12($s2) # our object's vtable address
+2572#    lw $t5,4($sp) # number characters in prefix
+2576#    lw $t1,12($sp) # number of characters in hashcode
+2580#    addu $t3,$t1,$t5 # number of characters in string ...
+2584#    addu $t3,1 # ... including the '@' character
+2588#    subu $t0,$zero,$t3 # store negated length into ...
+2592#    sw $t0,-4($s7) # ... -4 offset header word
+2596#    lw $t0,-8($s7) # get -8 offset header-word
+2600#    bge $t0,$zero,skipMask_toString # don't strip hash code if not there
+2601##...slt $at,$t0,$zero
+2605##...beq $at,$zero,2624
+2608#    and $t0,0xff # mask off object's hash value ...
+2609##...lui $at,0
+2613##...ori $at,$at,0xff
+2617##...and $t0,$t0,$at
+2620#    sw $t0,-8($s7) # ... and store back into -8 header-word
+2624:skipMask_toString:
+2624#    sll $t0,2 # convert to byte-offset (and shift off top bit, if there)
+2628#    subu $t0,$s7,$t0 # address first byte of string +8
+#    addu $t1,$t0,$t3 # address of one past last byte of string +8
+    
+    # copy the prefix into the string
+2632#    subu $t4,$t2,$t5
+2636:toString_copyLoop:    
+2636#    lb $t3,($t4)
+2640#    and $t3,0x7f # mask off sign bit (in case first word)
+2641##...lui $at,0
+2645##...ori $at,$at,0x7f
+2649##...and $t3,$t3,$at
+2652#    sb $t3,-8($t0)
+2656#    addu $t4,1
+2660#    addu $t0,1
+2664#    blt $t4,$t2,toString_copyLoop
+2665##...slt $at,$t4,$t2
+2669##...bne $at,$zero,2636
+
+    # copy the '@' sign
+2672#    li $t3,'@'
+2676#    sb $t3,-8($t0)
+                
+    ################################################################
+    # at this point, the stack looks like (from top):
+    # - the new string object that we are building
+    # - number of characters in the prefix
+    # - GC tag (5)
+    # - print-size (in bytes) of the hash value
+    # - GC tag (5)
+    # - hash value
+    # - GC tag (5)
+    # - return address
+    # - old this pointer
+    # - ... rest of stack
+    # $t0 contains the address of next byte to store, +8
+    # $t1 the number of characters in the hashcode
+    # $s2 contains the object on which toString() has been called
+    # $s7 also contains the address of the new object
+    ################################################################
+
+    # store the hex version of the hash value
+2680#    addu $t2,$t0,$t1 # address of last byte in string to store +8
+2684#    lw $t3,20($sp) # hash code to print
+2688:toString_hashCopyLoop:
+2688#    and $t4,$t3,0xf
+2692#    srl $t3,4
+2696#    lb $t4,hexChars($t4)
+2700#    sb $t4,-8($t2)
+2704#    subu $t2,$t2,1
+2708#    bgt $t2,$t0,toString_hashCopyLoop
+2709##...slt $at,$t0,$t2
+2713##...bne $at,$zero,2688
+
+    # blow away stack until return address
+    # put return address in $ra, 
+    # and put return string on top of stack
+2716#    addu $sp,28
+2720#    lw $ra,($sp)
+2724#    addu $sp,4
+2728#    move $t0, $s7 # return string we created
+2732#    jr $ra
+
+###############################################################
+# equals() - library method (class String)
+# - the String version of the .equals method
+# - produces false if the second object is null or is not a String ;
+#   otherwise produces true iff the two strings have the same contents
+# - parameters:
+#   - $s2 - this-pointer
+#   - ($sp) - object to compare to
+#   - 4($sp) - old-this-pointer
+# - return-value:
+#   - ($sp) - 1 if the objects were the same; 0 otherwise
+###############################################################
+2736:fcn_equals_String:
+    
+    # quick test for obvious false
+2736#    lw $t0,($sp) # second parameter
+2740#    beq $t0,$zero,goEsFalse # go return false if null
+2744#    lw $t1,-12($t0) # vtable pointer
+2748#    la $t2,CLASS_String # string vtable pointer
+2752#    bne $t1,$t2,goEsFalse # go return false if not a string
+
+    # save $ra, $s2, second parameter
+    # we don't need to swap $s2, 
+    # because it's still in the string class.
+2756#    subu $sp,12
+2760#    sw $ra,8($sp)
+2764#    sw $s2,4($sp)
+2768#    sw $t0,($sp)
+2772#    jal fcn_compareTo_String
+2776#    lw $s2, 4($sp) #restore this pointer and pop parameters
+2780#    addu $sp, 8 # pop parameters
+
+    # return value is 1 iff result is 0; else 0
+2784#    seq $t0,$t0,$zero
+2785##...subu $at,$t0,$zero
+2789##...sltiu $t0,$at,1
+
+    # pop return address and return $t0
+2792#    lw $ra,($sp)
+2796#    addu $sp,4
+
+2800#    jr $ra # return
+    
+2804:goEsFalse:
+    # put 0 in $t0 and return
+2804#    li $t0, 0
+2808#    jr $ra # return
+
+###############################################################
+# toString() - library method (class String)
+# - returns a String version of the object
+#   - ($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - the string version of the object
+###############################################################
+2812:fcn_toString_String:
+    #we are a string, so return this.
+2812#    move $t0, $s2
+2816#    jr $ra
+
+###############################################################
+# readLine() - library method (class Lib)
+# - reads line from standard input
+# - produces String that contains the line read, except that it
+#   does not include the end-of-line character-sequence. An
+#   end-of-line character-sequence is one of the following:
+#   - a return character followed by a newline character
+#   - a newline character not preceded by a return character
+#   - a return character not followed by a newline character
+#   - an end-of-file character that follows at least one data
+#     character
+# - returns null on end-of-file
+# - parameter:
+#   - $s2 - this-pointer
+#   - ($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - pointer to string containing line that was read
+# - anomalies:
+#   - with bare "return", looks ahead one character to check for
+#     newline.  This could cause non-intuitive behavior when
+#     run interactively.
+###############################################################
+2820:fcn_readLine_Lib:
+    
+2820#    subu $sp,$sp,8 # allocate space for data tag, saving $ra
+2824#    sw $ra, 4($sp) # save $ra
+2828#    move $t1,$sp # save "original" sp
+
+2832:  doRead:
+
+    # read the character
+2832#    jal readLogicalChar
+
+    # if we have a 'return', read another character to check for
+    # newline
+2836#    subu $t2,$v0,13
+2840#    bne $t2,$zero,notReturnRL
+2844#    jal readLogicalChar
+2848#    subu $t2,$v0,10 # check for newline
+2852#    beq $t2,$zero,foundNewLine
+2856#    sw $v0,lastCharRead # push back character into queue
+2860#    j foundNewLine # go process the line
+
+2864:  notReturnRL:
+
+    # at this point, $v0 has our character
+
+2864#    subu $t0,$v0,10
+2868#    beq $t0,$zero,foundNewLine
+2872#    blt $v0,$zero,foundEof
+2873##...slt $at,$v0,$zero
+2877##...bne $at,$zero,2892
+
+    # we have a character, so push it onto stack
+2880#    subu $sp,$sp,4
+2884#    sw $v0,($sp)
+
+    # loop back up to get next character
+2888#    j doRead
+
+2892:  foundEof:
+    # if we had actually read some characters before hitting
+        # the eof, go return them as if a newline had been read
+2892#    bne $t1,$sp foundNewLine
+
+    # otherwise, we got end of file without having read any
+    # new characters, so return null
+2896#    li $s7, 0 # return-value: null
+2900#    j rlReturn # return
+
+2904:  foundNewLine:
+
+    # at this point, we have our newline (or end-of-file), and all space
+    # on the stack above $t1 are characters to be put into the string.
+    # That is therefore the number of data words to allocate (plus 1
+    # more for the class-pointer)
+
+
+    # set up GC tag and char-count on stack
+2904#    subu $t0,$t1,$sp # number of chars we read (times 4)
+2908#    srl $s6,$t0,2 # number of words on stack with chars
+2912#    subu $sp,$sp,4 # push char-count ...
+2916#    sw $s6,($sp) # ... onto stack
+2920#    addu $t2,$t0,5 # GC tag, incl. for count-word
+2924#    sw $t2,($t1) # store GC tag
+    
+    # allocate the appropriate Object
+2928#    addu $s6,$s6,7 # 3 to round up, plus 1 for v-table pointer word
+2932#    srl $s6,$s6,2  # data words in object
+2936#    move $s7,$zero # object words in object
+2940#    jal newObject  # allocate space
+    
+    # store header words
+2944#    la $t0,CLASS_String
+2948#    sw $t0,-12($s7)# store class tag (String) into object
+2952#    lw $t2,4($sp) # char-count
+2956#    sll $t1,$t2,2 # 4 times number of chars
+2960#    subu $t2,$zero,$t2 # negative of char-count
+2964#    sw $t2,-4($s7) # store negative char-count as header-word 2
+
+    # set up pointers to various parts of stack and object
+2968#    lw $t0,-8($s7) # data words in object, possibly must mask off hash
+2972#    bge $t0,$zero,skipMask_readLine # don't strip hash code if not there
+2973##...slt $at,$t0,$zero
+2977##...beq $at,$zero,2996
+2980#    and $t0,0xff # mask off object's hash value ...
+2981##...lui $at,0
+2985##...ori $at,$at,0xff
+2989##...and $t0,$t0,$at
+2992#    sw $t0,-8($s7) # ... and store back into -8 header-word
+2996:  skipMask_readLine:
+
+2996#    sll $t0,$t0,2 # data bytes in object
+3000#    subu $t0,$s7,$t0 # place to store first character (plus 8)    
+3004#    subu $t0,$t0,$t2 # place to store last character (plus 9)
+3008#    addu $sp,$sp,8 # pop redundant object-pointer and count
+3012#    addu $t1,$t1,$sp # first non-char spot on stack
+
+    # at this point:
+    #  $t0 points to the target-spot for the last character (plus 9)
+    #  $t1 contains top spot on the stack not containing a char
+    #  $sp points to the word with the last source character
+
+    # copy the characters, popping each off the stack
+
+3016#    beq $sp,$t1,rlReturn
+3020:  charCopyLoop:
+3020#    lw $t2,($sp)
+3024#    sb $t2,-9($t0)
+3028#    addu $sp,$sp,4
+3032#    subu $t0,$t0,1
+3036#    bne $sp,$t1,charCopyLoop
+3040:  rlReturn:
+
+3040#    lw $ra, 4($sp)
+3044#    addu $sp, 8   # pop $ra and pointless word off stack
+3048#    move $t0, $s7 # return string we allocated in $s7
+3052#    jr $ra
+
+###################################################################
+# readInt() - library method (class Lib)
+# - skips whitespace
+# - then attempts to read a base-10 integer from standard input
+# - aborts program if a valid integer is not found
+# - returns the integer that is read
+# - truncates on overflow
+# - parameter:
+#   - $s2 - this-pointer
+#   - ($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - value that was read
+###################################################################
+3056:fcn_readInt_Lib:
+
+    # save $ra by pushing onto stack
+3056#    subu $sp,$sp,4
+3060#    sw $ra,($sp)
+
+3064:  riSkipWhiteLoop:
+    # read a character
+3064#    jal readLogicalChar
+
+    # if character <= 32 ascii, check for whitespace; if not
+    # whitespace, abort 
+3068#    subu $t0,$v0,32
+3072#    bgt $t0,$zero,nonWhite
+3073##...slt $at,$zero,$t0
+3077##...bne $at,$zero,3120
+3080#    beq $t0,$zero,riSkipWhiteLoop # start over if space
+3084#    subu $t0,$v0,10
+3088#    beq $t0,$zero,riSkipWhiteLoop # start over if newline
+3092#    subu $t0,$v0,9
+3096#    beq $t0,$zero,riSkipWhiteLoop # start over if tab
+3100#    subu $t0,$v0,13
+3104#    beq $t0,$zero,riSkipWhiteLoop # start over if carriage return
+3108#    subu $t0,$v0,12
+3112#    beq $t0,$zero,riSkipWhiteLoop # start over if form-feed
+3116#    j badIntegerFormat # illegal integer char: abort program
+
+3120:  nonWhite:
+3120#    subu $t0,$v0,'-'
+3124#    li $t4,1 # final multiplier
+3128#    bne $t0,$zero,helpReadInt # go read
+3132#    li $t4,-1 # -1 in final multiplier
+
+    # read another character to make up for the '-'
+3136#    jal readLogicalChar
+
+3140:  helpReadInt:
+3140#    li $t2,10
+3144#    subu $t1,$v0,'0' # convert digit to 0-9 value
+3148#    bgeu $t1,$t2,badIntegerFormat # abort if not digit
+3149##...sltu $at,$t1,$t2
+3153##...beq $at,$zero,5436
+3156#    move $t3,$t1 #
+
+    #### at this point, $t3 contains value of the first digit read,
+    #### and $t2 contains the value 10
+
+3160:  digitLoop:
+    # loop invariants:
+    # - $t3 contains the value of the number we've read so far
+    # - $t2 contains the value 10
+
+3160#    jal readLogicalChar # read next character
+3164#    subu $t1,$v0,'0' # convert digit to 0-9 value
+3168#    bgeu $t1,$t2,doneDigitLoop # abort if not digit
+3169##...sltu $at,$t1,$t2
+3173##...beq $at,$zero,3192
+
+3176#    mul $t3,$t3,$t2 # multiply old value by 10
+3177##...mult $t3,$t2
+3181##...mflo $t3
+3184#    addu $t3,$t3,$t1 # add in value of new digit
+3188#    j digitLoop
+
+3192:  doneDigitLoop:
+
+    # "push back" unused character into queue
+3192#    sw $v0,lastCharRead
+
+    # restore return address
+3196#    lw $ra,($sp)
+3200#    addu $sp, 4
+
+    # multiply by sign and put return value in $t0
+3204#    mult $t3,$t4 # multiply to account for poss. minus sign
+3208#    mflo $t3
+3212#    move $t0, $t3
+    
+    # return
+3216#    jr $ra
+
+###################################################################
+# readChar() - library method (class Lib)
+# - reads a single character from standard input
+# - returns the integer that is the encoding of the character
+# - returns -1 if end of file was encountered
+# - parameter:
+#   - ($sp) - old-this-pointer
+# - return-value:
+#   - $t0 - value that was read
+###################################################################
+3220:fcn_readChar_Lib:
+
+    # save $ra by pushing onto stack
+3220#    subu $sp,$sp,4
+3224#    sw $ra,($sp)
+
+      # read the character
+3228#    jal readLogicalChar
+
+    # restore return address; put value in $t0
+    # replacing this-pointer saved return address
+3232#    lw $ra,($sp)
+3236#    addu $sp, 4
+3240#    move $t0, $v0
+
+    # return
+3244#    jr $ra
+
+########################################################
+# printStr(str) - library method (class Lib)
+# - prints string to standard output
+# parameters:
+#   - ($sp) - the string to print
+#   - 4($sp) - old-this-pointer
+########################################################
+3248:fcn_printStr_Lib:
+    # check for null, printing "(null)", if so
+3248#    lw $t0,($sp)
+3252#    bne $t0,$zero,psNotNull
+
+    # print "(null)"
+3256#    la $a0,nullStr
+3260#    li $v0,4
+3264#    syscall
+3268#    j donePrintStr
+    
+3272:  psNotNull:
+    ##### we have a non-null string #####
+    # this means that:
+    # - number of data words in -8($t0):
+    #   - if the sign bit is 1, the low 31 bits
+    #   - if the sign bit is 0, the low 8 bits
+    # - negative of number of characters in string is in -4($t0)
+    # - string begins at $t0-8-(#dataWords*4), stored 1 char per byte
+3272#    subu $t0,$t0,8
+3276#    lw $t1,($t0) # number of data words, but needs modification
+3280#    blt $t1,$zero,skipPrintStr1
+3281##...slt $at,$t1,$zero
+3285##...bne $at,$zero,3304
+3288#    and $t1,0xff # mask out all but low byte
+3289##...lui $at,0
+3293##...ori $at,$at,0xff
+3297##...and $t1,$t1,$at
+3300#    b skipPrintStr2
+3304:skipPrintStr1:
+3304#    and $t1,0x7ffffff
+3305##...lui $at,2047
+3309##...ori $at,$at,0xffff
+3313##...and $t1,$t1,$at
+3316:skipPrintStr2:    
+3316#    sll $t1,$t1,2
+3320#    subu $t1,$t0,$t1 # first word in string
+3324#    lw $t0,4($t0) # negative of string-length
+3328#    subu $t0,$t1,$t0 # byte just beyond last char in string
+
+    # print the chars in the string
+3332#    beq $t0,$t1,donePrintStr
+3336:  psLoop:
+3336#    lb $a0,($t1) # next byte
+3340#    li $v0,11 # code for printing char
+3344#        syscall # print the char
+3348#    addu $t1,$t1,1 # go to next char
+3352#    blt $t1,$t0,psLoop
+3353##...slt $at,$t1,$t0
+3357##...bne $at,$zero,3336
+
+3360:  donePrintStr:
+3360#    jr $ra
+
+########################################################
+# printInt(n) - library method (class Lib)
+# - prints integer in decimal format to standard output
+# - parameters:
+#   - ($sp) - the integer to print
+#   - 4($sp) - GC tag
+#   - ($sp) - old-this-pointer
+########################################################
+3364:fcn_printInt_Lib:
+3364#    lw $a0,($sp)
+
+    # print it
+3368#    li $v0,1 # code for print-int
+3372#    syscall
+
+    # return
+3376#    jr $ra
+
+########################################################
+# printBool(n) - library method (class Lib)
+# - prints boolean to standard output
+# - parameters:
+#   - ($sp) - the boolean to print
+#   - 4($sp) - old-this-pointer
+########################################################
+3380:fcn_printBool_Lib:
+    # pop value off stack, along with 'this'
+3380#    lw $t0,($sp)
+
+    # print either 'true' or 'false', depending on the value
+3384#    la $a0,falseString
+3388#    beq $t0,$zero,skipPB
+3392#    la $a0,trueString
+3396:  skipPB:
+3396#    li $v0,4 # code for print-string
+3400#    syscall
+
+    # return
+3404#    jr $ra
+
+########################################################
+# str.substring(n, k) - library method (class String)
+# takes a substring of a string: Java: str.substring(n, k)
+# - parameters after pushing RA:
+#   - ($sp) - k: one beyond index of last char in subrange
+#   - 4($sp) - GC tag
+#   - 8($sp) - n: index of first char in subrange
+#   - 12($sp) - GC tag
+#   - 16($sp) - old this pointer
+# - return value:
+#  - $t0 - substring
+########################################################
+3408:fcn_substring_String:
+
+    # save $ra by pushing onto stack
+3408#    subu $sp,$sp,4
+3412#    sw $ra,($sp)
+
+    # get string from this, we probably don't need the null check.
+3416#    move $t0,$s2
+3420#    beq $t0,$zero,nullPtrException
+
+    # get both indices and string length, and ensure that
+    #   0 <= n <= k <= length
+3424#    lw $t0,-4($t0) # negative of string length
+3428#    subu $t0,$zero,$t0 # string length
+3432#    lw $t1,4($sp) # k
+3436#    lw $t2,12($sp) # n
+3440#    bgt $zero,$t2,strIndexOutOfBounds
+3441##...slt $at,$t2,$zero
+3445##...bne $at,$zero,5404
+3448#    bgt $t2,$t1,strIndexOutOfBounds
+3449##...slt $at,$t1,$t2
+3453##...bne $at,$zero,5404
+3456#    bgt $t1,$t0,strIndexOutOfBounds
+3457##...slt $at,$t0,$t1
+3461##...bne $at,$zero,5404
+
+    # allocate memory
+3464#    subu $s6,$t1,$t2 # # chars in target-string
+3468#    addu $s6,$s6,7 # account for extra "class" (4) word + 3 to round up
+3472#    srl $s6,$s6,2 # convert bytes-count to word-count
+3476#    move $s7,$zero # (no object-bytes in string)
+3480#    jal newObject
+
+    # store "String" tag in object-type field
+3484#    la $t0,CLASS_String
+3488#    sw $t0,-12($s7)
+    
+    # mask off hash bits, if needed
+3492#    lw $t4,-8($s7) # data words in source string
+3496#    bge $t4,$zero,skipMask_substring # don't strip hash code if not there
+3497##...slt $at,$t4,$zero
+3501##...beq $at,$zero,3520
+3504#    and $t4,0xff # mask off object's hash value ...
+3505##...lui $at,0
+3509##...ori $at,$at,0xff
+3513##...and $t4,$t4,$at
+3516#    sw $t4,-8($s7) # ... and store back into -8 header-word
+3520:skipMask_substring:
+
+    # store negative of count (=n-k) into object-length header-word
+    # indicies have changed, because newObject is on stack
+3520#    lw $t1,8($sp) # k
+3524#    lw $t2,16($sp) # n
+3528#    subu $t0,$t2,$t1 # value to store
+3532#    sw $t0,-4($s7) # store value
+    
+3536#    move $t3,$s2 # source string pointer
+    
+    # skip byte-copy loop if length is zero
+3540#    beq $zero,$t0,doneSubCopyzz
+
+    # get pointers set up in preparation for copy
+3544#    lw $t4,-8($t3) # data words in source string
+3548#    sll $t4,$t4,2 # data bytes in source string (incl. padding)
+3552#    subu $t3,$t3,$t4 # addr. of first data word of source string (+8)
+3556#    addu $t3,$t3,$t2 # addr. of first source data byte to be copied (+8)
+3560#    subu $t1,$t3,$t0 # addr. beyond last source data byte to be copied (+8)
+3564#    lw $t2,-8($s7)   # data words in target string
+3568#    sll $t2,$t2,2    # data bytes in target string
+3572#    subu $t2,$s7,$t2 # addr. of first target data byte (+8)
+    
+    ############################################
+    # at this point:
+    # - we know that the string has a positive length
+    # - $t3 contains 8 + address of the first source-byte
+    # - $t1 contains 8 + limit-address of the first source-byte
+    # - $t2 contains 8 + address first target byte
+    ############################################
+
+    # copy the bytes from source to target
+3576:  subCopyLoopzz:
+3576#    lb $t4,-8($t3)
+3580#    sb $t4,-8($t2)
+3584#    addu $t2,$t2,1
+3588#    addu $t3,$t3,1
+3592#    blt $t3,$t1,subCopyLoopzz
+3593##...slt $at,$t3,$t1
+3597##...bne $at,$zero,3576
+    
+3600:  doneSubCopyzz:
+    # restore return address, store return value, pop stack
+3600#    lw $ra,4($sp) # restore $ra
+3604#    addu $sp,$sp,8 # pop ra, and allocated newObject
+3608#    move $t0, $s7 # we're returning the string we got back
+                  # from newObject
+    
+    # return
+3612#    jr $ra
+
+########################################################
+# length() - library method (class String)
+# returns length of a string: Java: str.length()
+# - parameters:
+#   - ($sp) - old this pointer
+# - return-value:
+#   - $t0 - length of string
+########################################################
+3616:fcn_length_String:
+
+    # the length is the negative of 4($s2)
+3616#    lw $t0,-4($s2) # -length
+3620#    subu $t0,$zero,$t0
+
+    # return
+3624#    jr $ra
+
+
+########################################################
+# str1.concat(str2) - library method (class String)
+# (as in Java)
+# - parameters:
+#   - ($sp) - the second string
+#   - 4($sp) - old this pointer
+#   - $s2 - the first string (this)
+# - returns:
+#   - $t0 - pointer to concatenated string
+########################################################
+3628:fcn_concat_String:
+    # save $ra by pushing onto stack
+3628#    subu $sp,$sp,4
+3632#    sw $ra, ($sp)
+
+    # get string pointers and check parameter for null
+3636#    lw $t0,4($sp)
+3640#    beq $t0,$zero,nullPtrException
+3644#    move $t1,$s2
+    
+    # get lengths of two strings; allocate object whose size
+    # is their sum divided by 4 (rounded up) plus 1
+3648#    lw $t0,-4($t0) # negative size of second object
+3652#    lw $t1,-4($t1) # negative size of first object
+3656#    addu $s6,$t0,$t1 # sum of negative sizes
+3660#    sra $s6,$s6,2 # negative word-size of char part
+3664#    subu $s6,$zero,$s6 # word size of char part
+3668#    addu $s6,$s6,1 # data word size, including v-table word
+3672#    move $s7,$zero
+3676#    jal newObject
+
+    # store String vtable address in vtable address field
+3680#    la $t0,CLASS_String
+3684#    sw $t0,-12($s7)
+        
+    # mask off hash bits, if needed
+3688#    lw $t4,-8($s7) # # data words in source string
+3692#    bge $t4,$zero,skipMask_concat # don't strip hash code if not there
+3693##...slt $at,$t4,$zero
+3697##...beq $at,$zero,3716
+3700#    and $t4,0xff # mask off object's hash value ...
+3701##...lui $at,0
+3705##...ori $at,$at,0xff
+3709##...and $t4,$t4,$at
+3712#    sw $t4,-8($s7) # ... and store back into -8 header-word
+3716:skipMask_concat:
+
+3716#    move $t9, $s7 # store return string in unused (I hope) t9 register
+
+    #restore $t0, and $t1 after they were potentially blown
+    #away by newObject
+3720#    move $t1,$s2   # first object
+3724#    lw $t0,8($sp) # second object
+    
+    # get negative sizes; sum and store in new object size-field
+3728#    lw $t2,-4($t0) # negative length of second object
+3732#    lw $t3,-4($t1) # negative length of first object
+3736#    addu $t4,$t2,$t3 # sum of negative lengths
+3740#    sw $t4,-4($s7) # store sum as negated target-string length
+
+    #########################################################
+    # at this point:
+    # - $t0 is pointer to second object
+    # - $t1 is pointer to first object
+    # - $t2 is negated length of second object
+    # - $t3 is negated length of first object
+    # - $s7 is pointer to new object
+    #########################################################
+
+    # compute addresses for moving data from first string
+3744#    lw $t4,-8($t1) # # data words in first string
+3748#    sll $t4,$t4,2 # # data bytes in first string
+3752#    subu $t1,$t1,$t4 # addr. (+8) of first byte in first string
+3756#    lw $t4,-8($s7) # # data words in new string
+3760#    sll $t4,$t4,2 # # data bytes in new string
+3764#    subu $s7,$s7,$t4 # addr. (+8) of first byte in new string
+3768#    beq $zero,$t3,doneConcatLoop1zz # skip first loop is no bytes to copy
+3772#    subu $t3,$t1,$t3 # limit (+8) address for first string
+
+    #########################################################
+    # at this point:
+    # - $t0 is pointer to second object
+    # - $t1 is address (+8) of first byte in first object
+    # - $t2 is negated length of second object
+    # - $t3 is limit-address (+8) of data in first object
+    # - $s7 is address (+8) of first byte in new object
+    # - note: if data-length of first object is zero, then
+    #   we skip over this part, and go to 'doneConcatLoop1'
+    #########################################################
+
+    # copy the bytes from first source to target
+3776:  concatLoop1zz:
+3776#    lb $t4,-8($t1)
+3780#    sb $t4,-8($s7)
+3784#    addu $s7,$s7,1
+3788#    addu $t1,$t1,1
+3792#    blt $t1,$t3,concatLoop1zz
+3793##...slt $at,$t1,$t3
+3797##...bne $at,$zero,3776
+3800:  doneConcatLoop1zz:
+  
+    # if second string is empty, skip rest of copy
+3800#    beq $zero,$t2,doneConcatLoop2zz
+
+      # compute addresses for moving data from second string
+3804#    lw $t4,-8($t0) # # data words in second string
+3808#    sll $t4,$t4,2 # # data bytes in second string
+3812#    subu $t1,$t0,$t4 # addr. (+8) of first byte in second string
+3816#    subu $t3,$t1,$t2 # limit (+8) address for second string
+
+    #########################################################
+    # at this point:
+    # - $t1 is address (+8) of first byte in second object
+    # - $t3 is limit-address (+8) of data in second object
+    # - $s7 is address (+8) of next byte to write new object
+    # - note: if data-length of second object is zero, then
+    #   we skip over this part, and go to 'doneConcatLoop2'
+    #########################################################
+
+    # copy the bytes from first source to target
+3820:  concatLoop2zz:
+3820#    lb $t4,-8($t1)
+3824#    sb $t4,-8($s7)
+3828#    addu $s7,$s7,1
+3832#    addu $t1,$t1,1
+3836#    blt $t1,$t3,concatLoop2zz
+3837##...slt $at,$t1,$t3
+3841##...bne $at,$zero,3820
+3844:  doneConcatLoop2zz:
+ 
+3844:  concatRtnzz:
+    # return
+3844#    move $t0, $t9 # put saved return string in $t0
+3848#    lw $ra, 4($sp)
+3852#    addu $sp, 8 # pop ra and allocated newObject
+3856#    jr $ra
+
+########################################################
+# str.charAt(n) - library method (class String)
+# accesses a character in a string, as in Java
+# - parameters:
+#   - ($sp) - the index, n
+#   - 4($sp) - GC tag
+#   - 8($sp) - old this pointer
+#   - $s2    - this pointer
+# - returns:
+#   - $t0 - the character found.
+########################################################
+3860:fcn_charAt_String:
+    # get string
+3860#    move $t0,$s2
+
+    # check that index is in bounds
+3864#    lw $t1,-4($t0) # negative of # data words in string
+3868#    subu $t3,$zero,$t1 # # chars in string
+3872#    lw $t2,($sp) # index
+3876#    bgeu $t2,$t3,strIndexOutOfBounds
+3877##...sltu $at,$t2,$t3
+3881##...beq $at,$zero,5404
+
+    # access element
+3884#    lw $t1,-8($t0) # # data words in object
+3888#    sll $t1,$t1,2 # - byte-offset from end of chars
+3892#    subu $t1,$t2,$t1 # - address of first char in string, offset by 8
+3896#    addu $t0,$t0,$t1 # - address of our char, offset by 8
+3900#    lb $t0,-8($t0) # our char
+
+    # return
+3904#    jr $ra
+
+########################################################
+# intToString(n) - library method (class Lib)
+# converts int to string: Java: ""+n
+# - parameters:
+#   - ($sp) - the value to convert, n
+#   - 4($sp) - GC tag
+#   - 8($sp) - old-this-pointer
+#   - $s2 - this-pointer
+# - returns:
+#   - $t0 - the string, which is the string representation of
+#     the integer
+########################################################
+3908:fcn_intToString_Lib:
+
+    # save return address on stack; allocate space for dummy GC tag
+3908#    subu $sp,$sp,8
+3912#    sw $ra,4($sp)
+
+    # save current sp
+3916#    move $t0,$sp
+
+    # move constant 10 into $t3 
+    # (Good, I didn't know what li did, I'm glad this comment was here)
+    # * slams head through wall *
+3920#    li $t3,10
+
+    # get argument, negate if negative
+3924#    lw $t1,8($sp)
+3928#    bge $t1,$zero,itsNonNegLoop
+3929##...slt $at,$t1,$zero
+3933##...beq $at,$zero,3940
+3936#    subu $t1,$zero,$t1
+
+    # loop through, computing unsigned remainder by 10, and
+    # storing digits on stack until we reach 0
+3940:  itsNonNegLoop:
+3940#    divu $t1,$t3
+3944#    mflo $t1 # quotient
+3948#    mfhi $t4 # remainder
+3952#    addu $t4,$t4,'0' # turn remainder into digit
+3956#    subu $sp,$sp,4
+3960#    sw $t4,($sp) # push digit onto stack
+3964#    bne $t1,$zero,itsNonNegLoop
+
+    # push '-' if negative
+3968#    lw $t4,8($t0)
+3972#    bge $t4,$zero,itsSkipNeg
+3973##...slt $at,$t4,$zero
+3977##...beq $at,$zero,3992
+3980#    li $t4,'-'
+3984#    subu $sp,$sp,4
+3988#    sw $t4,($sp)
+3992:  itsSkipNeg:
+
+    ################################################
+    # At this point, all of our digits have been pushed
+    # onto the stack.  $sp points to the first one;
+    # $t0 contains the limit-pointer (into which we need to
+    # write a GC tag).
+    ################################################
+
+    # compute number of characters on stack (one word per character);
+    # write GC tag onto stack; push char-count onto stack
+3992#    subu $s6,$t0,$sp
+3996#    addu $t3,$s6,5 # GC tag (including for count-word, about to be pushed)
+4000#    sw $t3,($t0)
+4004#    srl $s6,$s6,2
+4008#    subu $sp,$sp,4
+4012#    sw $s6,($sp)
+    
+    # allocate memory
+4016#    addu $s6,$s6,7 # 3 to round up, plus 4 for vtable word
+4020#    srl $s6,$s6,2
+4024#    move $s7,$zero # no "object" words in object
+4028#    jal newObject
+
+    # restore char-count; pop it and return value from 'newObject'
+4032#    lw $t0,4($sp)
+4036#    addu $sp,$sp,8
+
+    # store "String" tag into class field
+4040#    subu $s7,$s7,8 # address of header-1 word
+4044#    la $t1,CLASS_String
+4048#    sw $t1,-4($s7)
+        
+    # mask off hash bits, if needed
+4052#    lw $t4,($s7) # # data words in source string
+4056#    bge $t4,$zero,skipMask_intToString # don't strip hash code if not there
+4057##...slt $at,$t4,$zero
+4061##...beq $at,$zero,4080
+4064#    and $t4,0xff # mask off object's hash value ...
+4065##...lui $at,0
+4069##...ori $at,$at,0xff
+4073##...and $t4,$t4,$at
+4076#    sw $t4,($s7) # ... and store back into -8 header-word
+4080:skipMask_intToString:
+    
+    # store negative of char-count into header-2 word
+4080#    subu $t0,$zero,$t0
+4084#    sw $t0,4($s7)
+
+4088#    lw $t1,($s7) # number of data words in string
+4092#    sll $t1,$t1,2 # number data bytes in string
+4096#    subu $t1,$s7,$t1 # first location to store chars in string
+4100#    subu $t0,$t1,$t0 # limit address for chars in string
+
+    ####################################################
+    # at this point:
+    # - $sp contains first source character address
+    # - $t1 contains first target character address
+    # - $t0 contains target-limit address
+    ####################################################
+
+    # loop through and copy all elements as we pop them off the stack.
+    # (In this case, we know that there is it least one.)
+4104:  itsLoop:
+4104#    lw $t2,($sp)
+4108#    addu $sp,$sp,4
+4112#    sb $t2,($t1)
+4116#    addu $t1,$t1,1
+4120#    bne $t1,$t0,itsLoop
+
+    ####################################################
+    # At this point
+    # - ($t0+15)&0xfffffffe is our return value
+    # - ($sp) contains garbage (old GC tag)
+    # - 4($sp) contains return address
+    ####################################################
+
+    # adjust stack, restore return address; return
+4124#    lw $ra,4($sp)
+4128#    addu $sp,$sp,8
+4132#    addu $t0,$t0,15
+4136#    and $t0,$t0,0xfffffffc
+4137##...lui $at,65535
+4141##...ori $at,$at,0xfffc
+4145##...and $t0,$t0,$at
+4148#    jr $ra
+
+########################################################
+# intToChar(n) - library method (class Lib)
+# converts int to a one-character string: Java: ""+(char)(n&0xff)
+# - parameters:
+#   - ($sp) - the value to convert, n
+#   - 4($sp) - GC tag
+#   - 8($sp) - old-this-pointer
+# - returns:
+#   - $t0 - the string, which is the converted character
+# - note: only the low 8 bits of the value n are used
+########################################################
+4152:fcn_intToChar_Lib:
+    # save return address
+4152#    subu $sp,$sp,4
+4156#    sw $ra,($sp)
+
+    # allocate object
+4160#    li $s6,2
+4164#    move $s7,$zero
+4168#    jal newObject
+
+    # get n from string.
+4172#    lw $t1,8($sp)
+
+    # store "String" tag into class field
+4176#    la $t0,CLASS_String
+4180#    sw $t0,-12($s7)
+        
+    # mask off hash bits, if needed
+4184#    lw $t4,-8($s7) # # data words in source string
+4188#    bge $t4,$zero,skipMask_intToChar # don't strip hash code if not there
+4189##...slt $at,$t4,$zero
+4193##...beq $at,$zero,4212
+4196#    and $t4,0xff # mask off object's hash value ...
+4197##...lui $at,0
+4201##...ori $at,$at,0xff
+4205##...and $t4,$t4,$at
+4208#    sw $t4,-8($s7) # ... and store back into -8 header-word
+4212:  skipMask_intToChar:
+
+    # store data in string
+4212#    sb $t1,-16($s7)
+    
+    # store negative of size in header-word 2
+4216#    li $t0,-1
+4220#    sw $t0,-4($s7)
+
+    # we're returning $s7
+4224#    move $t0, $s7
+
+    # restore $ra, and pop return address and return string off stack
+4228#    lw $ra,4($sp)
+4232#    addu $sp,$sp,8
+
+    # return
+4236#    jr $ra
+
+########################################################
+# str1.compareTo(str2) - library method (class String)
+# compares two strings as in Java
+# - parameters:
+#   - ($sp) - second string
+#   - 4($sp) - old this pointer
+#   - $s2 - first string (this)
+# - returns:
+#   - $t0 - -1, 0, or 1 depending on whether str1 is
+#       lexographically less than, equal to or greater than str2
+########################################################
+4240:fcn_compareTo_String:
+    # get string pointers and check parameter for null
+4240#    lw $t0,($sp) # second string
+4244#    beq $t0,$zero,nullPtrException
+4248#    move $t1,$s2 # first string
+    
+    # get (negatives of) respective byte-lengths
+4252#    lw $t2,-4($t0) # negative length of second string
+4256#    lw $t3,-4($t1) # negative length of first string
+
+    # put tentative return value in $t5.
+    # The tentative return value is the one that we will use if we get
+    # to the end of the shorter string during our comparison-loop.
+4260#    slt $t4,$t3,$t2
+4264#    slt $t5,$t2,$t3
+4268#    subu $t5,$t5,$t4
+    
+    # at this point:
+    # - $t0 contains the pointer to the second string object
+    # - $t1 contains the pointer to the first string object
+    # - $t5 contains the value to return if the strings compare equal up
+    #   to the length of the shortest word
+
+    # get begin-of-string addresses
+4272#    lw $t2,-8($t0) # # data words in second string
+4276#    lw $t3,-8($t1) # # data words in first string
+4280#    sll $t2,$t2,2 # byte-offset to beginning of str2 (+8)
+4284#    sll $t3,$t3,2 # byte-offset to beginning of str1 (+8)
+4288#    subu $t0,$t0,$t2 # beginning of str1 address (+8)
+4292#    subu $t1,$t1,$t3 # beginning of str2 address (+8)
+    
+    # put $t1-limit into $t2
+4296#    beq $zero,$t5,skipStrCmpLenzz
+4300#    move $t2,$t3
+4304:  skipStrCmpLenzz:
+4304#    add $t2,$t1,$t2
+    
+    # at this point:
+    # - $t0 contains 8 plus the address of the first data-byte of str2
+    # - $t1 contains 8 plus the address of the first data-byte of str1
+    # - $t2 contains 8 plus the address of the last data-type of str1
+    # - $t5 contains the value to return if the strings compare equal up
+    #   to the length of the shortest word
+
+    #######################################################
+    # at this point, we have
+    # - $t5 containing the tentative return-value
+    # - $t1 containing address of first char in str2
+    # - $t2 containing limit for $t1
+    # - $t0 containing address of first char in str1
+    #######################################################
+
+    # loop through, until we find unequal words or we hit
+    # our limit    
+4308:  cmpLoopzz:
+4308#    lw $t3,-8($t1) # word from str2
+4312#    lw $t4,-8($t0) # word from str1
+4316#    bne $t3,$t4,cmpNotEqualzz
+4320#    addu $t1,$t1,4
+4324#    addu $t0,$t0,4
+4328#    bne $t1,$t2,cmpLoopzz
+
+    # # got to the end of one string: go set up return
+4332#    j cmpHitLimitzz
+
+4336:  cmpNotEqualzz:
+    # found unequal characters: return -1 or 1, depending on which is
+    # greater
+4336#    slt $t5,$t4,$t3 # 1 if str2 > str1, else 0
+4340#    sll $t5,$t5,1 # 2 if str2 > str1, else 0
+4344#    subu $t5,$t5,1 # 1 if str2 > str1, else -1
+4348:  cmpHitLimitzz:
+4348#    move $t0, $t5 # store return value
+4352#    jr $ra # return
+
+########################################################
+# readLogicalChar (millicode)
+#  - logically reads a character from standard input
+#  - first checks character buffer, consuming it if possible
+#  - return-result:
+#    - returns character in $v0
+#  - side-effects:
+#    - reads a character
+#    - clobbers $t0
+########################################################
+4356:readLogicalChar:
+
+    # check if we already have a character
+4356#    lw $v0,lastCharRead
+4360#    li $t0,-2
+4364#    beq $t0,$v0 doReadCh
+
+    # we have our character from the buffer. Wipe out
+    # buffer and return
+4368#    sw $t0,lastCharRead # store -2 into buffer (i.e. "empty")
+4372#    jr $ra # return
+    
+4376:  doReadCh:
+    # we need to actually read a character: read and return
+4376#    li $v0,12 # use system call to read a character
+4380#    syscall
+4384#    jr $ra # return
+
+########################################################
+# newObject (millicode)
+#  - allocates a new object on the heap
+#  - two-word header is set up properly
+#  - all non-header words in object are set to zero
+#  - parameters:
+#    - $s6 = the number of data words in the negative-offset portion of
+#      the object (including the vtable pointer); this value is 1 if the
+#      object is an array; this should always be at least 1
+#    - $s7 - second header-word, which is the number of object
+#      words in the object
+#      - $s7 may not be negative (this is checked); if so, the program is
+#        aborted with an "array size of out bounds" error message
+#      is treated as if it were zero
+#  - return-result:
+#    - returned in $s7
+#    - and pushed on the stack
+#  - side-effects:
+#  - may trash all $tx registers and all $sx registers, except the
+#    "permanent" ones, which get updated with values that are
+#    consistent with the new space
+########################################################
+4388:newObject:
+    # $s6 = # data words
+    # $s7 = # object words (# data words if data-array allocation,
+    # where a negative number is treated as 0)
+    # $ra = return address
+    # on return, pointer to new memory in two places:
+    # - pushed onto top of stack
+    # - in $s7
+    
+    # if the object-portion size is negative, abort with error
+4388#    blt $s7,$zero arraySizeOutOfBounds
+4389##...slt $at,$s7,$zero
+4393##...bne $at,$zero,5420
+
+    # mark the fact that we have not yet GC'd for this allocation
+4396#    move $t5,$zero
+
+    ###### TEMPORARY #######
+    # for now, go a GC unconditionally, so that a full GC occurs
+    # every time we allocate an object
+    ### let's not do that for now
+    # j doGC
+
+4400:  gcJoin:
+
+    # at this point:
+    #  $s6 contains the before-header word count
+    #  $s7 contains the second header word, which is also the
+    #    after-header word count
+    #  $t5 is zero iff we have not GC'd for this allocation
+
+    # determine if we have enough memory available
+4400#    addu $t0,$s6,$s7
+4404#    sll $t0,$t0,2
+4408#    addu $t0,$t0,8 # amount of memory needed
+4412#    addu $t1,$t0,$s3
+4416#    bgtu $t1,$s4,doGC
+4417##...sltu $at,$s4,$t1
+4421##...bne $at,$zero,4544
+
+    # at this point:
+    #  $s3 points to beginning of segment, and
+    #  $t1 points just past the end
+
+    # zero out the memory
+4424#    move $t2,$s3
+4428:  zeroObjLoop:
+4428#    sw $zero,($s3)
+4432#    lw $zero,($s3)
+
+4436#    addu $s3,4
+4440#    bltu $s3,$t1,zeroObjLoop
+4441##...sltu $at,$s3,$t1
+4445##...bne $at,$zero,4428
+
+    # at this point:
+    #  $s3 has been updated to point to the next free slot,
+    #    which is also the points just past our object
+
+    # compute pointer value and set up header-words
+4448#    sll $t0,$s7,2    # number of post-header bytes
+4452#    subu $t0,$s3,$t0 # pointer that we will return
+
+    # determine the value to store in the first header-word:
+    # if <= 255 (unsigned):
+    #  - it goes into low byte
+    #  - hash bits go into high three bytes, with top bit being 1
+    # if >255 (unsigned)
+    #  - it goes into full word (with a 0 in the high bit)
+    
+4456#    li $t2,255
+4460#    bgeu $s6,$t2 firstHeaderLarge
+4461##...sltu $at,$s6,$t2
+4465##...beq $at,$zero,4512
+4468#    lw $t1,prevHashConstant
+4472#    addu $t1,0x12b68fd2
+4473##...lui $at,4791
+4477##...addiu $at,$at,-28718
+4481##...addu $t1,$at,$t1
+4484#    sw $t1,prevHashConstant # update hash constant
+4488#    or $t1,0x80000000 # set top bit
+4489##...lui $at,32768
+4493##...or $t1,$at,$t1
+4496#    and $t1,0xffffff00 # clear low bit
+4497##...lui $at,65535
+4501##...ori $at,$at,0xff00
+4505##...and $t1,$t1,$at
+4508#    or $s6,$t1
+4512:firstHeaderLarge:
+4512#    sw $s6,-8($t0) # store header-1 value
+4516#    lw $zero,-8($t0)
+
+    # store second header-value
+4520#    sw $s7,-4($t0)   # second header-word
+4524#    lw $zero,-4($t0)
+    
+    # put return-value into $s7 and also push it onto top of stack
+4528#    move $s7,$t0
+4532#    subu $sp,$sp,4
+4536#    sw $t0,($sp)
+
+4540#    jr $ra
+    
+4544:  doGC:
+    #####################################################
+    # We need to do a garbage-collect
+    #####################################################
+ 
+     ####### print that we are doing a GC ########
+     ####### THESE THREE LINES WILL NORMALLY BE COMMENTED OUT #######
+#         la $a0,gcMsg # prints message: "GC!" 
+#         li $v0,4 # syscall-code for print-string 
+#         syscall 
+       
+
+    # if we've already done a GC for this allocation, then
+    # we are actually out heap-memory: abort program
+4544#    bne $t5,$zero,outOfHeapMemory
+      
+    # increment the number of times we've done a GC, for later reporting
+4548#    lw $t5,gcCount
+4552#    addu $t5,1
+4556#    sw $t5,gcCount
+
+    # save $s2 (our only rooted register) on the stack
+    # so that the garbage collector processes it
+4560#    subu $sp,$sp,4
+4564#    sw $s2,($sp)
+
+    # set $s3 to the address of the new segment and the
+    # end-limit of the new segment, respectively,
+    # Also, update cur_seg to refer to the other segment
+4568#    lw $t0,cur_seg
+4572#    move $t7,$s4
+4576#    la $t6,seg1_start
+4577##...lui $t6,16
+4581##...addiu $t6,$t6,6176
+4584#    la $s3,seg0_start
+4588#    la $s4,seg0_end
+4589##...lui $s4,16
+4593##...addiu $s4,$s4,6176
+4596#    sw $zero,cur_seg
+4600#    bne $t0,$zero,skipGc1
+4604#    la $t6,seg0_start
+4608#    la $s3,seg1_start
+4609##...lui $s3,16
+4613##...addiu $s3,$s3,6176
+4616#    la $s4,seg1_end
+4617##...lui $s4,32
+4621##...addiu $s4,$s4,6176
+4624#    sw $s5,cur_seg
+4628:  skipGc1:
+4628#    li $t5,0x80000000
+4632#    lw $t0,stack_bottom
+4636#    subu $t0,4
+
+
+    ###############################################################
+    # at this point:
+    # - $t6 contains the first address of the source space
+    # - $t7 contains the limit address of the source space
+    # - $s3 contains the first address of the target space
+    # - $s4 contains the limit address of the target space
+    # - cur_seg has been updated to refer to the target space
+    # - $t0 contains the address of the deepest stack element
+    # - $sp contains the address of the top stack element
+    # - $s2 is available for use, having been pushed onto the stack
+    # - $t5 contains the value 0x80000000
+    ###############################################################
+
+    ###### begin outer loop to copy all stack-direct objects ######
+
+4640:  gcStackCopyLoop:
+4640#    lw $t1,($t0) # current stack element
+
+    # test if we have a GC tag
+4644#    sll $t2,$t1,31 # zero iff low bit was zero
+4648#    bne $t2,$zero,gcBump # go skip data values if low bit not zero
+
+    # bump stack-address pointer
+4652#    subu $t0,$t0,4
+
+    # if value is out of range (which includes null=0), and is
+    # therefore does not refer to an object on the heap, just go
+    # loop back and do the next one
+4656#    bleu $t1,$t6,gcTestIterDone1
+4657##...sltu $at,$t6,$t1
+4661##...beq $at,$zero,4824
+4664#    bgtu $t1,$t7,gcTestIterDone1
+4665##...sltu $at,$t7,$t1
+4669##...bne $at,$zero,4824
+
+    # if the object has already been moved, update the stack-value
+    # via the forwarding pointer
+4672#    lw $t2,-8($t1) # possible forwarding tag
+4676#    bne $t2,$zero,gcNoForward1 # if not forwarding tag, go copy
+4680#    lw $t2,-4($t1) # forwarding pointer: object's new address
+4684#    sw $t2,4($t0) # update stack value
+4688#    j gcTestIterDone1 # do next iteration
+
+4692:  gcNoForward1:
+    #########################################################
+    # we actually need to copy the object into the new space
+    #########################################################
+
+    # compute the amount of space that is needed
+4692#    bge $t2,$zero,gcSkip2
+4693##...slt $at,$t2,$zero
+4697##...beq $at,$zero,4712
+4700#    and $t2,0xff #### mask off hash value
+4701##...lui $at,0
+4705##...ori $at,$at,0xff
+4709##...and $t2,$t2,$at
+    #### OLD
+    #### subu $t2,$zero,$t2 # set to 1 if -1 (number of data words)
+
+4712:  gcSkip2:
+4712#    sll $t2,$t2,2
+4716#    addu $t2,$t2,8
+4720#    subu $t4,$t1,$t2 # address of first word of source
+4724#    lw $t3,-4($t1) # number of object words (negative means zero)
+4728#    bge $t3,$zero,gcH2Neg1
+4729##...slt $at,$t3,$zero
+4733##...beq $at,$zero,4740
+4736#    move $t3,$zero
+4740:  gcH2Neg1:
+4740#    sll $t3,$t3,2
+4744#    addu $t3,$t3,$t1 # address one word past last word of source
+
+4748#    addu $t2,$s3,$t2 # pointer to target object
+
+    #########################################################
+    # At this point:
+    # - $t0 contains the address of the stack slot we'll
+    #   process next
+    # - $t1 contains the contents of the stack slot we're
+    #   currently working on, which is a pointer to the source
+    #   object (i.e., the address just beyond the object's header)
+    # - $t2 contains the pointer to the target object
+    # - $t3 contains the limit address of the source object
+    # - $t4 contains the first address of the source object
+    # - $t5 contains the value 0x80000000
+    # - $t6 contains the first address of the source space
+    # - $t7 contains the limit address of the source space
+    # - $s3 contains the first unallocated address of the
+    #   target space, which is also the first address of the
+    #   target object
+    # - $s4 contains the limit address of the target space
+    # - $s5 contains the value 5
+    # - $s6-7 contain the original parameters to the call to
+    #   'newObject'
+    # - $sp contains the address of the top stack element
+    # - available for use: $s0-2
+    #########################################################
+
+    # swap first header word and first data word so that header
+        # can be found by "trailing finger" in the target space
+4752#    lw $s0,($t4)
+4756#    lw $s1,-8($t1)
+4760#    sw $s1,($t4)
+4764#    sw $s0,-8($t1)
+    
+    # copy all source bytes to the target
+4768:  gCinnerCopy1:
+4768#    lw $s0,($t4)
+4772#    sw $s0,($s3)
+4776#    addu $t4,$t4,4
+4780#    addu $s3,$s3,4
+4784#    bltu $t4,$t3,gCinnerCopy1
+4785##...sltu $at,$t4,$t3
+4789##...bne $at,$zero,4768
+
+    ###########################################################
+    # All bytes have been copied to the target space.  We still
+    # need to:
+    # - set up forwarding pointer in source object
+    # - update the pointer in the current stack slot
+    ###########################################################
+
+    # set up the forwarding pointer
+4792#    sw $zero,-8($t1) # 0 in first header-slot
+4796#    sw $t2,-4($t1) # forwarding pointer in second header-slot
+
+    # update the stack slot with the address in the target space
+4800#    sw $t2,4($t0)
+4804#    lw $zero,-8($t2)
+4808#    lw $zero,-4($t2)
+
+    # go handle next stack slot (testing if done)
+4812#    j gcTestIterDone1
+
+4816:  gcBump:
+    #### we have a GC tag.  Bytes to skip: tag value + 3.
+4816#    subu $t0,$t0,$t1
+4820#    subu $t0,$t0,3
+
+4824:  gcTestIterDone1:
+4824#    bgeu $t0,$sp,gcStackCopyLoop
+4825##...sltu $at,$t0,$sp
+4829##...beq $at,$zero,4640
+
+    ###### end outer loop to copy all stack-direct objects ######
+
+    #############################################################
+    # We have finished processing the stack elements.  Now we need
+    # to update elements in the heap itself. This may itself involve
+    # moving additional objects
+    #############################################################
+
+    #########################################################
+    # At this point:
+    # - $t5 contains the value 0x80000000
+    # - $t6 contains the first address of the source space
+    # - $t7 contains the limit address of the source space
+    # - $s3 contains the first unallocated address of the
+    #   target space
+    # - $s4 contains the limit address of the target space
+    # - $s5 contains the value 5
+    # - $s6-7 contain the original parameters to the call to
+    #   'newObject'
+    # We want to set things up so that in addition:
+    # - $t0 is the "trailing finger", containing the address
+    #   of the first slot in target space that we have yet
+    #   to process.
+    # Then during processing:
+    # - $t1 will contain the contents of the heap slot we're
+    #   currently working on, which is a pointer to the source
+    #   object
+    # And when we're actually copying an object:
+    # - $t2 will contain pointer to the target object
+    # - $t3 will contain the limit address of the source object
+    # - $t4 will contain the first address of the source object
+    # - $s1 will contain the the limit address for the current
+    #   object that tells where the pointers in the object end
+    # - available for use: $s0
+    ##########################################################
+
+    # set $t0 to be at the beginning of target-space
+4832#    lw $t1,cur_seg
+4836#    la $t0,seg0_start
+4840#    beq $t1,$zero,gcSkip4
+4844#    la $t0,seg1_start
+4845##...lui $t0,16
+4849##...addiu $t0,$t0,6176
+
+
+4852:  gcSkip4:
+
+    # if there were no objects put into the heap during stack
+    # processing, we're done, so go finish up
+4852#    bgeu $t0,$s3,gcFinishUp
+4853##...sltu $at,$t0,$s3
+4857##...beq $at,$zero,5148
+
+    ###### begin outer loop to copy all non-stack-direct objects ######
+
+4860:  gcHeapCopyLoop:
+    # get data count for object; swap header-word with first word
+    # of object so that they're back in the right place
+4860#    lw $t1,($t0) # (what will be) first header word for current object
+4864#    move $t2,$t1 # number data bytes in object (poss. w/hash bits)
+4868#    bge $t2,$zero,gcSkip4a # are there hash bits?
+4869##...slt $at,$t2,$zero
+4873##...beq $at,$zero,4888
+4876#    and $t2,0xff # mask off hash bits
+4877##...lui $at,0
+4881##...ori $at,$at,0xff
+4885##...and $t2,$t2,$at
+4888:gcSkip4a:    
+4888#    sll $t2,$t2,2 # # data bytes
+4892#    addu $t2,$t2,8 # to skip header words
+4896#    addu $t2,$t0,$t2 # pointer to new object
+4900#    lw $t3,-8($t2) # word to swap
+4904#    sw $t1,-8($t2) # store header word
+4908#    sw $t3,($t0) # restore first word of object
+
+    ################################################
+    # at this point:
+    # - $t2 contains the pointer to our new object
+    ################################################
+
+    # check if we have a data array
+4912#    lw $t1,-12($t2) # vtable pointer
+4916#    li $t0,dataArrayVTableStart # address of vtable for first data array
+4920#    blt $t1,$t0,gcNotDataArray # if data array, no more xforming to do
+4921##...slt $at,$t1,$t0
+4925##...bne $at,$zero,4944
+
+    # We have a vtable address that is a data array.
+    # we need skip over it then loop back to do next object.
+4928:  skipToNextObj:
+4928#    lw $t1,-4($t2) # data words in (object position of) array
+    #### note: we know that it's not a string, so the value will
+    #### not be artificially negative
+4932#    sll $t1,$t1,2 # convert to byte-count
+4936#    addu $t0,$t2,$t1 # skip over object
+4940#    j gcTestIterDone2 # go do next object, if any
+
+    ###################################################
+    # at this point:
+    # - the object has been restored to normal status--that is, the
+    #   word-swap has been done
+    # - $t2 contains a pointer to the object
+    ###################################################
+    
+4944:  gcNotDataArray:
+4944#    lw $t3,-4($t2) # # object words (negative treated as zero)
+4948#    bge $t3,$zero,gcH2Neg2
+4949##...slt $at,$t3,$zero
+4953##...beq $at,$zero,4960
+4956#    move $t3,$zero
+4960:  gcH2Neg2:
+4960#    sll $t3,$t3,2 # # object bytes
+4964#    move $t0,$t2 # address of first pointer in object
+4968#    add $s1,$t2,$t3 # limit address for this object
+
+    #####################################################
+    # At this point, we have to "translate" all pointers,
+    # starting at $t0 to (but not including) $s1
+    #####################################################
+
+    # if there are no pointer-slots (i.e., $t0=$s1), skip this
+    # part
+4972#    beq $t0,$s1,gcTestIterDone2
+    
+4976:  gcNextPointerInObject:
+    # get pointer from object
+4976#    lw $t1,($t0)
+
+    # if value is out of range, and is therefore does not refer
+    # to an object, just go loop back and do the next one
+4980#    bleu $t1,$t6,gcGoNextPointerSlot
+4981##...sltu $at,$t6,$t1
+4985##...beq $at,$zero,5128
+4988#    bgtu $t1,$t7,gcGoNextPointerSlot
+4989##...sltu $at,$t7,$t1
+4993##...bne $at,$zero,5128
+
+    # if the object has already been moved, update the stack-value
+    # via the forwarding pointer
+4996#    lw $t8,-8($t1) # possible forwarding tag
+5000#    bne $t8,$zero,gcNoForward2 # if not forwarding tag, go copy
+5004#    lw $t8,-4($t1) # forwarding pointer: object's new address
+5008#    sw $t8,($t0) # update pointer in object
+5012#    j gcGoNextPointerSlot # do next iteration
+
+5016:  gcNoForward2:
+    #########################################################
+    # we actually need to copy the object into the new space
+    #########################################################
+
+    #########################################################
+    # At this point:
+    # - $t0 contains the address of the heap-slot we're translating
+    # - $t1 will contain the contents of the heap-slot we're
+    #   currently working on, which is a pointer to the source
+    #   object
+    # - $t2 will contains pointer to the object we're in the
+    #   middle of translating
+    # - $t5 contains the value 0x80000000
+    # - $t6 contains the first address of the source space
+    # - $t7 contains the limit address of the source space
+    # - $s3 contains the first unallocated address of the
+    #   target space, which will also be the first address
+    #   of the target object
+    # - $s4 contains the limit address of the target space
+    # - $s5 contains the value 5
+    # - $s6-7 contain the original parameters to the call to
+    #   'newObject'
+    # Then during processing:
+    # And when we're actually copying an object:
+    # - $t3 will contain the limit address of the source object
+    # - $t4 will contain the first address of the source object
+    # - $s1 will contain the the limit address for the current
+    #   object that tells where the pointers in the object end
+    # - $t8 will contain a pointer to the target object
+    # - available for use: $s0, $t8, $t9
+    ##########################################################
+
+    # compute the amount of space that is needed
+5016#    bge $t8,$zero,gcSkip5 # # words in negative-offset portion
+5017##...slt $at,$t8,$zero
+5021##...beq $at,$zero,5036
+5024#    and $t8,0xff # mask off hash bits
+5025##...lui $at,0
+5029##...ori $at,$at,0xff
+5033##...and $t8,$t8,$at
+
+5036:  gcSkip5:
+5036#    sll $t8,$t8,2 # bytes in negative-offset portion ...
+5040#    addu $t8,$t8,8 # ... add in bytes for header-words
+5044#    subu $t4,$t1,$t8 # address of first word of source object
+5048#    lw $t3,-4($t1) # # words in positive-offset portion
+5052#    bge $t3,$zero,gcNoNeg
+5053##...slt $at,$t3,$zero
+5057##...beq $at,$zero,5064
+5060#    move $t3,$zero # negative treated as zero
+5064:  gcNoNeg:
+5064#    sll $t3,$t3,2 # bytes in negative-offset portion
+5068#    addu $t3,$t3,$t1 # address one word past last word of source
+
+5072#    addu $t8,$s3,$t8 # pointer to target object
+
+    #########################################################
+    # At this point:
+    # - $t0 contains the address of the stack slot we'll
+    #   process next
+    # - $t1 contains the contents of the stack slot we're
+    #   currently working on, which is a pointer to the source
+    #   object
+    # - $t2 will contains pointer to the object we're in the
+    #   middle of translating
+    # - $t3 contains the limit address of the source object
+    # - $t4 contains the first address of the source object
+    # - $t5 contains the value 0x80000000
+    # - $t6 contains the first address of the source space
+    # - $t7 contains the limit address of the source space
+    # - $t8 contains the pointer to the target object
+    # - $s1 contains the the limit address for the current
+    #   object that tells where the pointers in the object end
+    # - $s3 contains the first unallocated address of the
+    #   target space, which is also the first address of the
+    #   target object
+    # - $s4 contains the limit address of the target space
+    # - $s5 contains the value 5
+    # - $s6-7 contain the original parameters to the call to
+    #   'newObject'
+    # - $sp contains the address of the top stack element
+    # - available for use: $s0, $t9
+    #########################################################
+
+    # swap first header word and first data word so that header
+        # can be found by "trailing finger"
+5076#    lw $s0,($t4)
+5080#    lw $t9,-8($t1)
+5084#    sw $t9,($t4)
+5088#    sw $s0,-8($t1)
+
+    # copy all source bytes to the target
+5092:  gCinnerCopy2:
+5092#    lw $s0,($t4)
+5096#    sw $s0,($s3)
+5100#    addu $t4,$t4,4
+5104#    addu $s3,$s3,4
+5108#    bltu $t4,$t3,gCinnerCopy2
+5109##...sltu $at,$t4,$t3
+5113##...bne $at,$zero,5092
+
+    ###########################################################
+    # All bytes have been copied to the target space.  We still
+    # need to:
+    # - set up forwarding pointer in source object
+    # - update the pointer in the current stack slot
+    ###########################################################
+
+    # set up the forwarding pointer
+5116#    sw $zero,-8($t1) # 0 in first header-slot
+5120#    sw $t8,-4($t1) # forwarding pointer in second header-slot
+
+    # update the heap-slot with the address in the target space
+5124#    sw $t8,($t0)
+
+5128:  gcGoNextPointerSlot:
+    # bump $t0 to next slot in object; if not done, loop back
+5128#    addu $t0,$t0,4
+5132#    bltu $t0,$s1,gcNextPointerInObject
+5133##...sltu $at,$t0,$s1
+5137##...bne $at,$zero,4976
+
+5140:  gcTestIterDone2:
+5140#    bltu $t0,$s3,gcHeapCopyLoop
+5141##...sltu $at,$t0,$s3
+5145##...bne $at,$zero,4860
+
+    ###### end outer loop to copy all non-stack-direct objects ######
+
+5148:  gcFinishUp:
+    # restore $s2 to its updated value by popping off stack
+5148#    lw $s2,($sp)
+5152#    addu $sp,$sp,4
+
+    # mark us as having already GC'd
+5156#    move $t5,$s5
+
+    # go try and allocate again
+5160#    j gcJoin
+        
+
+########################################################
+# vm_init (millicode)
+#  - initialzes the virtual machine
+#  - values 5 stored in $s5
+#  - zero ("this pointer") stored in $s2
+#  - heap and heap-limit pointers stored respectively in $s3 and $s4
+#  - address of bottom of stack stored in 'stack_bottom' memory
+#    location
+#  - (note: 'cur_seg' memory location is already set to 0)
+########################################################
+5164:vm_init:
+
+    # mark bottom of stack
+5164#    sw $sp,stack_bottom
+    
+    # set "this" pointer to be null, for now
+5168#    move $s2,$zero
+
+    #set up the "five" register
+5172#    li $s5,5
+
+5176#    la $s3,seg0_start
+5180#    la $s4,seg0_end
+5181##...lui $s4,16
+5185##...addiu $s4,$s4,6176
+    
+    # return
+5188#    jr $ra
+
+########################################################
+# divide (millicode)
+#  - divides first arg by second (signed divide)
+#  - aborts if divisor is zero
+#  - follows calling conventions for library methods
+#  - parameters:
+#    - ($sp) divisor
+#    - 4($sp) (dummy) GC tag
+#    - 8($sp) dividend
+#    - 12($sp) (dummy) GC tag
+#  - return value:
+#    - ($sp) result
+#    - 4($sp) (dummy) GC tag
+########################################################
+5192:divide:
+    # get parameters; abort if divisor zero
+5192#    lw $t0,($sp)
+5196#    lw $t1,8($sp)
+5200#    beq $t0,$zero,divByZeroError
+    
+    # perform division
+5204#    div $t1,$t0
+5208#    mflo $t0
+
+    # store result, adjust stack and return
+5212#    addu $sp,$sp,8 # adjust stack
+5216#    sw $t0,($sp) # store result
+5220#    jr $ra
+
+########################################################
+# remainder (millicode)
+#  - takes remainder first arg divided by second (signed divide)
+#  - aborts if divisor is zero
+#  - follows calling conventions for library methods
+#  - parameters:
+#    - ($sp) divisor
+#    - 4($sp) (dummy) GC tag
+#    - 8($sp) dividend
+#    - 12($sp) (dummy) GC tag
+#  - return value:
+#    - ($sp) result
+#    - 4($sp) (dummy) GC tag
+########################################################
+5224:remainder:
+    # get parameters; abort if divisor zero
+5224#    lw $t0,($sp)
+5228#    lw $t1,8($sp)
+5232#    beq $t0,$zero,divByZeroError
+    
+    # perform division
+5236#    div $t1,$t0
+5240#    mfhi $t0
+
+    # store result, adjust stack and return
+5244#    addu $sp,$sp,8 # adjust stack
+5248#    sw $t0,($sp) # store result
+5252#    jr $ra
+    
+########################################################
+# checkCast (millicode) - checks that a cast is legal
+#  - aborts if null
+#  - aborts if cast is illegal cast
+#  - parameters:
+#    - ($sp) object to check
+#    - $t0 address of vtable for target-class
+#    - $t1 address one past vtable address of last
+#      subclass of target-class
+#  - return value:
+#    - ($sp) object to check (now checked)
+#  - side-effects: clobbers $t2 and $t3
+########################################################
+5256:checkCast:
+    # get object, allow immediately if null
+5256#    lw $t2,($sp)
+5260#    beq $t2,$zero,checkCastReturn
+    
+    # get vtable address of object, abort if less than
+    # lower limit or greater then or equal to higher
+    # limit
+5264#    lw $t2,-12($t2) # vtable address
+5268#    bge $t2,$t1,castException
+5269##...slt $at,$t2,$t1
+5273##...beq $at,$zero,5444
+5276#    blt $t2,$t0,castException
+5277##...slt $at,$t2,$t0
+5281##...bne $at,$zero,5444
+    
+    # return, leaving object unchanged on stack
+5284:  checkCastReturn:    
+5284#    jr $ra    
+
+# checkCast:
+#     # get object, allow immediately if null
+#     lw $t2,($sp)
+#     beq $t2,$zero,checkCastReturn
+#     
+#     # get vtable address of object (using Object vtable
+#     # address for arrays)
+#     lw $t3,-8($t2) # <= 0 if array
+#     lw $t2,-12($t2) # vtable address (unless array)
+#     bgt $t3,$zero,skipArrayCast
+#     la $t2,CLASS_Object
+#     
+#     # get vtable address of object, abort if less than
+#     # lower limit or greater then or equal to higher
+#     # limit
+#   skipArrayCast:
+#     bge $t2,$t1,castException
+#     blt $t2,$t0,castException
+#     
+#     # return, leaving object unchanged on stack
+#   checkCastReturn:    
+#     jr $ra    
+
+########################################################
+# instanceOf (millicode) - tests whether an object is
+#   a member of a given class (or subclass)
+#  - returns false if object is null
+#  - parameters:
+#    - ($sp) object to check
+#    - $t0 address of vtable for target-class
+#    - $t1 address one past vtable address of last
+#      subclass of target-class
+#  - return value:
+#    - ($sp) true (1) or false (0), depending on whether
+#      object is a member
+#  - side-effects: clobbers $t2 and $t3
+########################################################
+5288:instanceOf:
+    # get object, go return false if null
+5288#    lw $t2,($sp)
+5292#    beq $t2,$zero,doneInstanceOf
+    
+    # get vtable address of object, determine if we're >= the
+    # lower limit, and if we're < the higher limit
+5296#    lw $t2,-12($t2) # vtable address
+5300#    sge $t0,$t2,$t0 # are we >= the lower limit?
+5301##...slt $t0,$t2,$t0
+5305##...xori $t0,$t0,0x1
+5308#    slt $t1,$t2,$t1 # are we < the higher limit?
+    
+    # store the AND of the two conditions onto the stack; return
+5312#    and $t2,$t0,$t1
+5316#    sw $t2,($sp)
+5320:doneInstanceOf: # if we reach here via branch, stack-top is zero,
+            # which will now represent false
+5320#    jr $ra
+
+
+###########################################################
+# jump-targets to terminate program:
+# - exit: returns normally
+# - outOfHeapMemory: prints "out of memory" error and returns
+###########################################################
+
+5324:exitError:
+    # assumes $a0 has pointer to null-terminated string
+
+    # print the string
+5324#    li $v0,4 # syscall-code for print-string
+5328#    syscall
+5332:exit:
+    # print termination message
+5332#    li $v0,4 # syscall-code for print-string
+5336#    la $a0,exitString
+5340#    syscall
+
+    # print number of garbage collections
+5344#    li $v0,4 # syscall-code for print-string
+5348#    la $a0,gcCountMsg
+5352#    syscall # print "Number of ..."
+5356#    lw $a0,gcCount # number of GC's
+5360#    li $v0,1 # code for print-int
+5364#    syscall
+5368#    li $v0,4 # syscall-code for print-string
+5372#    la $a0,newlineString
+5376#    syscall # print newline
+
+    # terminate execution
+5380#    li $v0,10 #syscall-code for "exit"
+5384#    syscall
+
+5388:outOfHeapMemory:
+5388#    la $a0,heapMemoryMsg
+5392#    j exitError
+5396:divByZeroError:
+5396#    la $a0,divByZeroMsg
+5400#    j exitError
+5404:strIndexOutOfBounds:
+5404#    la $a0,strIndexOutOfBoundsMsg
+5408#    j exitError
+5412:arrayIndexOutOfBounds:
+5412#    la $a0,arrayIndexOutOfBoundsMsg
+5416#    j exitError
+5420:arraySizeOutOfBounds:
+5420#    la $a0,arraySizeOutOfBoundsMsg
+5424#    j exitError
+5428:nullPtrException:
+5428#    la $a0,nullPtrExceptionMsg
+5432#    j exitError
+5436:badIntegerFormat:
+5436#    la $a0,badIntegerFormatMsg
+5440#    j exitError
+5444:castException:
+5444#    la $a0,castExceptionMsg
+5448#    j exitError
+############## data section ################
+    .data
+5804:hexChars:
+    .ascii "0123456789abcdef"
+    .align 2
+5820:cur_seg:
+    .word 0
+
+5824:lastCharRead:
+    .word -2 # -2 => no buffered character
+5828:prevHashConstant:
+    .word 0x2785173c
+5832:gcCount:
+    .word 0
+
+5836:heapMemoryMsg:
+    .asciiz "ERROR: out of heap memory\n"
+5863:divByZeroMsg:
+    .asciiz "ERROR: divide by zero\n"
+5886:strIndexOutOfBoundsMsg:
+    .asciiz "ERROR: string index out of bounds\n"
+5921:arrayIndexOutOfBoundsMsg:
+    .asciiz "ERROR: array index out of bounds\n"
+5955:arraySizeOutOfBoundsMsg:
+    .asciiz "ERROR: array size out of bounds\n"
+5988:nullPtrExceptionMsg:
+    .asciiz "ERROR: null-pointer exception\n"
+6019:badIntegerFormatMsg:
+    .asciiz "ERROR: attempt to read badly formatted integer\n"
+6067:castExceptionMsg:
+    .asciiz "ERROR: illegal cast\n"
+6088:gcMsg: 
+      .asciiz "\nGC!\n"
+6094:gcCountMsg: 
+      .asciiz "Number of garbage collections: "
+
+6126:nullStr:
+    .asciiz "null"
+6131:trueString:
+    .asciiz "true"
+6136:falseString:
+    .asciiz "false"
+6142:exitString:
+    .ascii "Program execution completed."
+    #### "falls through" here
+6170:newlineString:
+    .asciiz "\n"
+    
+    .align 2
+6172:stack_bottom:
+    .word 0
+
+# heapFudge: # temporary fudge amount to exercise GC
+#     .word 0
+
+6176:seg0_start:
+    .space 0x100000
+1054752:seg0_end:
+1054752:seg1_start:
+    .space 0x100000
+2103328:seg1_end:
